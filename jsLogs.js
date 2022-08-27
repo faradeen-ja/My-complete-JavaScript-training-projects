@@ -139,11 +139,26 @@ const interest = movements
 .filter((int) => { // this filter will return interests only on > 1 dollars transactions or eur
   return int >= 1;
 
+})
+.reduce((acc, int) => acc + int, 0);
+labelSumInterest.textContent = `${interest}EUR`;
+}
 
+// conclusions//
+/// we should not over use chaining 
+//// can cause performance issues 
+///// compress all the functionality in one 
+///// it is a bad practice in js to chain methods that underlying original array
+///// e.g =  splic method
+
+calcDisplaySummary(account1.movements)
   
   
   
   
+
+
+
 
 
 // mapping first letters of the full name to bank app
