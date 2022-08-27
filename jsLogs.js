@@ -11,6 +11,7 @@ console.log(javaScriptsLogs.logs)
 console.log(javaScriptsLogs.progress)
 
 
+
 /////////////////////////////////////////////////
 /////////////////////////////////////////////////
 // BANKIST APP
@@ -93,7 +94,9 @@ const displayMovements = function (movements) {
     containerMovements.insertAdjacentHTML('afterbegin', html);
   });
 };
-displayMovements(account1.movements);
+/* displayMovements(account1.movements);
+ */
+
 
 ////////////////////create app users  ////////////////////////////////
 const createUsernames = function (accounts) {
@@ -110,6 +113,63 @@ const createUsernames = function (accounts) {
 createUsernames(accounts);
 console.log(accounts);
 
+
+
+/////////////////////////implementing log in///////////////////////
+// event handelers here
+
+let currentAcccount; 
+
+btnLogin.addEventListener('click', function(e){ // e is for event / event is page auto load
+  e.preventDefault();  //to remvoe browser default behaviour for reload
+
+
+  currentAcccount = accounts.find(acc => acc.username === 
+  inputLoginUsername.value)
+  console.log(currentAcccount)
+
+
+  if (currentAcccount?.pin === Number(inputLoginPin.value)) { // ? mark is optional chaining checks if current account exist 
+    console.log('login')
+
+
+    //display UI
+    labelWelcome.textContent = `Welcome back, ${currentAcccount.owner.split(' ')[0]}`;
+    containerApp.style.opacity = 100;
+
+
+    //display movements
+    displayMovements(currentAcccount.movements) // function 
+
+
+    // clear user log in input texts
+    inputLoginUsername.value = inputLoginPin.value = ''; // = to empty 
+    inputLoginPin.blur();  //blur function fades away the place holder names 
+
+
+    //display balance
+    calcPrintBal(currentAcccount.movements)
+
+
+    //display summary
+    calcDisplaySummary(currentAcccount)
+
+
+  }
+})
+
+
+
+
+
+
+
+
+
+
+
+
+
 //calculate the bal of movements////////////////////////////////////
 const calcPrintBal = function (movements) {
   const balanceApp = movements.reduce(function (acc, mov) {
@@ -119,26 +179,27 @@ const calcPrintBal = function (movements) {
   labelBalance.textContent = `${balanceApp} EUR`;
 };
 
-calcPrintBal(account1.movements);
+/* calcPrintBal(account1.movements); */
 
 
-//money in money out and interest 
+///////////////////////////display summary money in out int////////////////////////
+
 //money in
-const calcDisplaySummary = function(movements){
+const calcDisplaySummary = function(acc){
  const incomes = movements.filter(mov => mov > 0).reduce((acc, mov) => acc + mov, 0);
 labelSumIn.textContent = `${incomes} EUR`;
 
 //money out
-  const outcomes = movements.filter(mov => mov < 0).reduce((acc, mov) => acc + mov, 0);
+  const outcomes = acc.movements.filter(mov => mov < 0).reduce((acc, mov) => acc + mov, 0);
 labelSumOut.textContent = `${Math.abs(outcomes)}EUR`;//to remove - sign from value we can use Math.abs to remove absolute value - from UI
 
 //money interets
-const interest = movements
+const interest = acc.movements
 .filter(mov => mov > 0)
-.map(deposit => (deposit * 1.2)/100)
+.map(deposit => (deposit * acc.interestRate ) /100)
 .filter((int) => { // this filter will return interests only on > 1 dollars transactions or eur
   return int >= 1;
-
+  
 })
 .reduce((acc, int) => acc + int, 0);
 labelSumInterest.textContent = `${interest}EUR`;
@@ -151,11 +212,11 @@ labelSumInterest.textContent = `${interest}EUR`;
 ///// it is a bad practice in js to chain methods that underlying original array
 ///// e.g =  splic method
 
-calcDisplaySummary(account1.movements)
-  
-  
-  
-  
+/* 
+calcDisplaySummary(account1.movements) */
+
+
+
 
 
 
@@ -413,14 +474,19 @@ console.log(avg1);
 
 
 
+
+
+
+
 //// data transformation 
 /// using chaining method in maps, filter and reduce 
-//chain all in one
+// chain all in one
 
 const eurToUsdNew = 1.1;
+console.log(movements)
 
 const totalDepositUSD = movements
-.filter(mov => mov > 0) ///fitlers nums > 0  selects positve nums
+.filter(mov => mov > 0) ///filters nums > 0  selects positve nums
 .map(mov => mov * eurToUsdNew) 
 .reduce((acc, mov) => acc + mov, 0)
 
@@ -428,7 +494,25 @@ console.log(totalDepositUSD)
 
 
 
+///////////////////////////the find method/////////////////////////
+// we can use the find.() to retrive one element of an array based on a condtion
+/// just like the other array method find methods also accept a call back func which then can be called to loop over the array
+//// loops over array but do someting differrent
+//////// you might see find method is a bit the same as filter method?>
+/////// fundamental diffrence is 
+//////fundamental 1. filter all the ele that match the condition while find method only returns the first one
+///// funamental 2. the filter returns a new array while finds only returns the element itself 
 
+const firstWithdrawal = movements.find(mov => mov < 0)
+console.log(movements);
+console.log(firstWithdrawal)
+
+
+// e.g.  our object in the code base
+console.log(accounts)
+/// find specific account owner from an object 
+const account = accounts.find(acc => acc.owner === 'Jessica Davis');
+console.log(account)
 
 
 
