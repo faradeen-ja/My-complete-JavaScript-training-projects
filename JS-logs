@@ -1,0 +1,10 @@
+
+const javaScriptsLogs = {
+  dever: 'FJ',
+  logs: 'JS',
+  progress: '-----halfway done!',
+  goal: 'become a useful dev'
+}
+
+console.log(javaScriptsLogs.logs)
+console.log(javaScriptsLogs.progress)
