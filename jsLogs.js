@@ -1,5 +1,16 @@
 'use strict';
 
+const javaScriptsLogs = {
+  dever: 'FJ',
+  logs: 'JS',
+  progress: '-----halfway done!',
+  goal: 'become a useful dev'
+}
+
+console.log(javaScriptsLogs.logs)
+console.log(javaScriptsLogs.progress)
+
+
 /////////////////////////////////////////////////
 /////////////////////////////////////////////////
 // BANKIST APP
@@ -368,12 +379,4 @@ console.log(avg1);
 
 
 
-const javaScriptsLogs = {
-  dever: 'FJ',
-  logs: 'JS',
-  progress: '-----halfway done!',
-  goal: 'become a useful dev'
-}
 
-console.log(javaScriptsLogs.logs)
-console.log(javaScriptsLogs.progress)
