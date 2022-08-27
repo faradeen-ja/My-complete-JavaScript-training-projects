@@ -372,10 +372,10 @@ console.log(avg1);
 
 
 
+
+//// data transformation 
 /// using chaining method in maps, filter and reduce 
-//chain all in one
-
-
+// chain all in one
 
 
 
