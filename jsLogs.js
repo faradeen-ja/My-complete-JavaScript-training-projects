@@ -123,11 +123,14 @@ calcPrintBal(account1.movements);
 
 
 //money in money out and interest 
-
+//money in
 const calcDisplaySummary = function(movements){
  const incomes = movements.filter(mov => mov > 0).reduce((acc, mov) => acc + mov, 0);
 labelSumIn.textContent = `${incomes} EUR`;
 
+//money out
+  const outcomes = movements.filter(mov => mov < 0).reduce((acc, mov) => acc + mov, 0);
+labelSumOut.textContent = `${Math.abs(outcomes)}EUR`;//to remove - sign from value we can use Math.abs to remove absolute value - from UI
 
 
 
