@@ -375,9 +375,15 @@ console.log(avg1);
 
 //// data transformation 
 /// using chaining method in maps, filter and reduce 
-// chain all in one
+//chain all in one
 
 const eurToUsdNew = 1.1;
 
+const totalDepositUSD = movements
+.filter(mov => mov > 0) ///fitlers nums > 0  selects positve nums
+.map(mov => mov * eurToUsdNew) 
+.reduce((acc, mov) => acc + mov, 0)
+
+console.log(totalDepositUSD)
 
 
