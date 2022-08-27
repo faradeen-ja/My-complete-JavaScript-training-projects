@@ -132,9 +132,18 @@ labelSumIn.textContent = `${incomes} EUR`;
   const outcomes = movements.filter(mov => mov < 0).reduce((acc, mov) => acc + mov, 0);
 labelSumOut.textContent = `${Math.abs(outcomes)}EUR`;//to remove - sign from value we can use Math.abs to remove absolute value - from UI
 
+//money interets
+const interest = movements
+.filter(mov => mov > 0)
+.map(deposit => (deposit * 1.2)/100)
+.filter((int) => { // this filter will return interests only on > 1 dollars transactions or eur
+  return int >= 1;
 
 
-
+  
+  
+  
+  
 
 
 // mapping first letters of the full name to bank app
