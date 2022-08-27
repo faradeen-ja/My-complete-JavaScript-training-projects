@@ -377,6 +377,7 @@ console.log(avg1);
 /// using chaining method in maps, filter and reduce 
 // chain all in one
 
+const eurToUsdNew = 1.1;
 
 
 
