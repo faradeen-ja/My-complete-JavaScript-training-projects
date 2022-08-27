@@ -121,6 +121,19 @@ const calcPrintBal = function (movements) {
 
 calcPrintBal(account1.movements);
 
+
+//money in money out and interest 
+
+const calcDisplaySummary = function(movements){
+ const incomes = movements.filter(mov => mov > 0).reduce((acc, mov) => acc + mov, 0);
+labelSumIn.textContent = `${incomes} EUR`;
+
+
+
+
+
+
+
 // mapping first letters of the full name to bank app
 const user = 'fara jami ahmadi';
 const username = user
@@ -385,5 +398,11 @@ const totalDepositUSD = movements
 .reduce((acc, mov) => acc + mov, 0)
 
 console.log(totalDepositUSD)
+
+
+
+
+
+
 
 
