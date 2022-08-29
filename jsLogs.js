@@ -170,15 +170,32 @@ btnTransfer. addEventListener('click', function(e){
    acc => acc.username === inputTransferTo.value
    );
 console.log(amount, receiveAcc);
+  
+  
+if(
+  amount > 0  &&
+  receiveAcc &&
+  currentAcccount.balanceApp >=  amount && 
+  receiveAcc?.username !== currentAcccount.username)
+
+{
+  console.log('transfer valid')
+}
+
+})
+
+
+  
+  
+  
+  
+  
+  
 
 
 
-  
-  
-  
-  
-  
-  
+
+
 
 
 
