@@ -11,6 +11,7 @@ console.log(javaScriptsLogs.logs)
 console.log(javaScriptsLogs.progress)
 
 
+'use strict';
 
 /////////////////////////////////////////////////
 /////////////////////////////////////////////////
@@ -75,10 +76,10 @@ const inputClosePin = document.querySelector('.form__input--pin');
 
 ////APP
 
-const displayMovements = function (movements) {
+const displayMovements = function (movs) {
   containerMovements.innerHTML = '';
 
-  movements.forEach(function (mov, i) {
+  movs.forEach(function (mov, i) {
     const type = mov > 0 ? 'deposit' : 'withdrawal'; // ternary condition  if more movement more than 0 deposit if not take out
 
     const html = `
@@ -115,6 +116,19 @@ console.log(accounts);
 
 
 
+
+
+// refactored function for update UI
+
+const updateUi = function(acc){
+
+  displayMovements(acc.movements);
+
+  calcDisplayBalance(acc)
+
+  calcDisplaySummary(acc)
+}
+
 /////////////////////////implementing log in///////////////////////
 // event handelers here
 
@@ -138,26 +152,17 @@ btnLogin.addEventListener('click', function(e){ // e is for event / event is pag
     containerApp.style.opacity = 100;
 
 
-    //display movements
-    displayMovements(currentAcccount.movements) // function 
-
 
     // clear user log in input texts
     inputLoginUsername.value = inputLoginPin.value = ''; // = to empty 
     inputLoginPin.blur();  //blur function fades away the place holder names 
 
 
-    //display balance
-    calcPrintBal(currentAcccount.movements)
-
-
-    //display summary
-    calcDisplaySummary(currentAcccount)
-
+    //update ui
+    updateUi(currentAcccount)
 
   }
 })
-
 
 
 
@@ -169,28 +174,26 @@ btnTransfer. addEventListener('click', function(e){
   const receiveAcc = accounts.find(
    acc => acc.username === inputTransferTo.value
    );
-console.log(amount, receiveAcc);
-  
-  
+   inputTransferAmount.value = inputTransferTo.value = '';
+
 if(
   amount > 0  &&
   receiveAcc &&
-  currentAcccount.balanceApp >=  amount && 
+  currentAcccount.balance >=  amount && 
   receiveAcc?.username !== currentAcccount.username)
 
-{
-  console.log('transfer valid')
+{  // doing the transfer 
+  currentAcccount.movements.push(-amount);
+  receiveAcc.movements.push(amount);
+ //update ui
+ updateUi(currentAcccount)
+ 
 }
+
 
 })
 
 
-  
-  
-  
-  
-  
-  
 
 
 
@@ -199,15 +202,12 @@ if(
 
 
 
-
-//calculate the bal of movements////////////////////////////////////
-const calcPrintBal = function (movements) {
-  const balanceApp = movements.reduce(function (acc, mov) {
-    return acc + mov;
-  });
-
-  labelBalance.textContent = `${balanceApp} EUR`;
-};
+//calculate the BAL of movements////////////////////////////////////
+const calcDisplayBalance = function(acc){
+  acc.balance = acc.movements.reduce((acc, mov) => 
+  acc + mov, 0);
+  labelBalance.textContent = `${acc.balance}ERU`;
+}
 
 /* calcPrintBal(account1.movements); */
 
@@ -543,6 +543,11 @@ console.log(accounts)
 /// find specific account owner from an object 
 const account = accounts.find(acc => acc.owner === 'Jessica Davis');
 console.log(account)
+
+
+
+
+
 
 
 
