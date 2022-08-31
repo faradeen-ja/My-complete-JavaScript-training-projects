@@ -204,7 +204,8 @@ btnTransfer.addEventListener('click', function(e){
 console.log(amount, receiveAcc)
 // 1 if amount is greater than 0 transfer 
 /// 2 && amount must not exceed the current balance to transeer > = amount
-
+////// 3 this will not allow sending money to yourself to our account !==
+///// check to seee if receiver account exist?  we can use optional chaining ?
 
 
 
