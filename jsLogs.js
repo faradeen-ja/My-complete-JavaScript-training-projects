@@ -198,7 +198,12 @@ btnTransfer.addEventListener('click', function(e){
   const receiveAcc = accounts.find(
     acc => acc.username === inputTransferAmount.value)
 })
-
+  
+  
+  
+console.log(amount, receiveAcc)
+// 1 if amount is greater than 0 transfer 
+/// 2 && amount must not exceed the current balance to transeer > = amount
 
 
 
