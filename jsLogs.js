@@ -206,6 +206,14 @@ console.log(amount, receiveAcc)
 /// 2 && amount must not exceed the current balance to transeer > = amount
 ////// 3 this will not allow sending money to yourself to our account !==
 ///// check to seee if receiver account exist?  we can use optional chaining ?
+  
+  if (amount > 0 && // 1
+//receiveAcc && 
+  currentAcccount.balance >= amount && // 2
+  receiveAcc?.username!== currentAcccount.username) // 3
+    
+    
+    
 
 
 
