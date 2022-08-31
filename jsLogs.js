@@ -212,6 +212,13 @@ console.log(amount, receiveAcc)
   currentAcccount.balance >= amount && // 2
   receiveAcc?.username!== currentAcccount.username) // 3
     
+    console.log('transfer valid')
+
+}
+
+})
+    
+    
     
     
 
