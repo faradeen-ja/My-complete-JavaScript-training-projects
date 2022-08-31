@@ -189,8 +189,14 @@ if(
  updateUi(currentAcccount)
  
 }
-
-
+  
+  // this part has to be in the same funtion scope or it will bug amount not defined
+///////////////////////transfer user to user/////////////////////////////
+btnTransfer.addEventListener('click', function(e){
+  e.preventDefault();
+  const amount = Number(inputTransferAmount.value);
+  const receiveAcc = accounts.find(
+    acc => acc.username === inputTransferAmount.value)
 })
 
 
