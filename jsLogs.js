@@ -683,3 +683,9 @@ console.log(movements.filter(deposit));// filters the array
 //combine all arrays > nested array in one
 const arrFlat = [[1, 2], 3, 4, 5, 6, 7, 8,];
 console.log(arrFlat.flat())
+
+//deep nested array 
+const arrDeep = [[[1,2], 3], [4, [5, 6]], 7, 8];
+console.log(arrDeep.flat(2)) // running it with 2 (level) is going deep in array 
+
+
