@@ -374,7 +374,14 @@ console.log(totalBalance);
 
 
 
-
+////3. another method flatMap
+//combines map and flat method into one  
+///better for performance 
+//if you need to go deeper in arrays in a situation you still need flatMap
+const totalBalanceFlatMap = accounts
+.flatMap(acc => acc.movements)
+.reduce((acc, mov) => acc + mov, 0);
+console.log(totalBalanceFlatMap);
 
 
 
