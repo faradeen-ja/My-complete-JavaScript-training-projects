@@ -351,7 +351,7 @@ btnClose.addEventListener('click', function(e){
 
 
 ///getting the total balance of our bank app 
-////doing it serprately long hand
+////1. doing it serprately long hand
 const accMovements = accounts.map(acc => acc.movements);
 console.log(accMovements);
 const allMovements = accMovements.flat();
@@ -359,6 +359,17 @@ console.log(allMovements);
 /* const totalBalance = allMovements.flat().reduce((acc, mov) => acc + mov, 0);
 console.log(totalBalance); */
 
+
+
+
+///getting the total balance of our bank app 
+////2. doing it with chaining short hand
+////cleaner code
+const totalBalance = accounts
+.map(acc => acc.movements)
+.flat()
+.reduce((acc, mov) => acc + mov, 0);
+console.log(totalBalance);
 
 
 
