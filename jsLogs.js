@@ -322,7 +322,13 @@ console.log(makeUsernames('jannat jami'));
 btnClose.addEventListener('click', function(e){
   e.preventDefault();
 
-
+  if(
+    inputCloseUsername.value === currentAcccount.username &&
+    Number(inputClosePin.value) === currentAcccount.pin
+  ){
+    const index = accounts.findIndex(
+      acc => acc.username === currentAcccount.username
+    );
 
 
 
