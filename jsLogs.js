@@ -342,8 +342,23 @@ btnClose.addEventListener('click', function(e){
   }
   inputCloseUsername.value = inputClosePin.value = '';
 })
+    //
+
+
+//sorting the array of display transactions
+
+// puts the array elements back to false back to normal 
+let sorted = false;
+
+btnSort.addEventListener('click', function(e) {
+  e.preventDefault();
+  displayMovements(currentAcccount.movements, !sorted);
+  sorted =! sorted;
+
+})
     
-    
+
+
 
 
 
