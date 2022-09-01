@@ -316,6 +316,58 @@ const makeUsernames = function (user) {
 console.log(makeUsernames('fara jami ahmadi'));
 console.log(makeUsernames('jannat jami'));
 
+
+
+////////////////////////Acount deletion //Delete//////////////////////////
+btnClose.addEventListener('click', function(e){
+  e.preventDefault();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /////////////////////////////////////////////////
 /////////////////////////////////////////////////
 // LECTURES
