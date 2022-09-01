@@ -674,3 +674,12 @@ console.log(movements.some(deposit));  //true
 console.log(movements.every(deposit)); // false 
 console.log(movements.filter(deposit));// filters the array
 
+
+
+
+
+
+//flat and flatMap method
+//combine all arrays > nested array in one
+const arrFlat = [[1, 2], 3, 4, 5, 6, 7, 8,];
+console.log(arrFlat.flat())
