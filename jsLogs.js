@@ -76,8 +76,10 @@ const inputClosePin = document.querySelector('.form__input--pin');
 
 ////APP
 
-const displayMovements = function (movs) {
+const displayMovements = function (movements, sort = false) {
   containerMovements.innerHTML = '';
+
+  const movs = sort ? movements.slice().sort((a, b) => a - b) : movements;
 
   movs.forEach(function (mov, i) {
     const type = mov > 0 ? 'deposit' : 'withdrawal'; // ternary condition  if more movement more than 0 deposit if not take out
