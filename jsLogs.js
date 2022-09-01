@@ -659,4 +659,7 @@ console.log(account)
 console.log(movements)
 console.log(movements.includes(-130));
 
-
+//conditional with some method
+//test positive movements in our array
+const anyDeposits = movements.some(mov => mov > 500);
+console.log(anyDeposits)
