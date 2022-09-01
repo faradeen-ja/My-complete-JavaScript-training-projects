@@ -329,6 +329,11 @@ btnClose.addEventListener('click', function(e){
     const index = accounts.findIndex(
       acc => acc.username === currentAcccount.username
     );
+     console.log(index)
+    //.indexof(23)
+    
+    //delete account
+    accounts.splice(index, 1);
 
 
 
