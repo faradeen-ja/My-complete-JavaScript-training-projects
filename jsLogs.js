@@ -651,7 +651,7 @@ console.log(account)
 
 
 
-////////////////////////some and every method arrays////////////////////////////
+////////////////////////some and every arrays method ////////////////////////////
 
 //includes 
 ///test an array includes a value  but includes check for equality == retuns boolean
@@ -663,3 +663,14 @@ console.log(movements.includes(-130));
 //test positive movements in our array
 const anyDeposits = movements.some(mov => mov > 500);
 console.log(anyDeposits)
+
+
+///every
+/// we can simplfy the functions and call back
+//// simply write our function and call back
+///// resue the same funciton for all kinds of diffrrent method that require call backs
+const deposit = mov => mov > 0;
+console.log(movements.some(deposit));  //true
+console.log(movements.every(deposit)); // false 
+console.log(movements.filter(deposit));// filters the array
+
