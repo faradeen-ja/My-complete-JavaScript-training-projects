@@ -651,4 +651,12 @@ console.log(account)
 
 
 
+////////////////////////some and every method arrays////////////////////////////
+
+//includes 
+///test an array includes a value  but includes check for equality == retuns boolean
+////if we wanted to test a conditon instead we use some method
+console.log(movements)
+console.log(movements.includes(-130));
+
 
