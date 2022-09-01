@@ -318,6 +318,8 @@ console.log(makeUsernames('jannat jami'));
 
 
 
+
+
 ////////////////////////Acount deletion //Delete//////////////////////////
 btnClose.addEventListener('click', function(e){
   e.preventDefault();
@@ -334,6 +336,14 @@ btnClose.addEventListener('click', function(e){
     
     //delete account
     accounts.splice(index, 1);
+    
+        //hide account
+    containerApp.style.opacity = 0;
+  }
+  inputCloseUsername.value = inputClosePin.value = '';
+})
+    
+    
 
 
 
