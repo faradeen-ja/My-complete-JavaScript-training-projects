@@ -822,6 +822,14 @@ console.log(movements)
     return 1
   }) */
 
+//✅----->Short function DRY<------//
+  //as always we are returning a value with arrow funtion so we don't need to explicitly call return
+
+movements.sort((a, b) => b - a)
+console.log(movements)
+//note:  if  we have a mixed array nums and strings this wont work
+
+
 
 
 
