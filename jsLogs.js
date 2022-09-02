@@ -778,3 +778,19 @@ console.log(owners)//<--  mutated
 
 
 
+
+
+
+
+
+
+///////////////////// we can fix this by compare call function///////////////////// 
+
+// if we return < 0, A, B  then A will be before B  ACCENDING = from small to large numbers
+// if we return > 0, B, A then B will be before A  DECENDING  = from large to small nunbers
+
+//accending  1️⃣2️⃣3️⃣
+
+
+
+
