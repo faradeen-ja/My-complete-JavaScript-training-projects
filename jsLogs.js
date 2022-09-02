@@ -756,3 +756,25 @@ console.log(arrDeep.flat(2)) // running it with 2 (level) is going deep in array
 
 
 
+
+
+
+
+/////////////
+///////////////////////////////////////////////////////SORT METHOd////////////////////////////////////////////////////////////////
+/////////////
+
+
+
+//Strings --> sort
+const owners = ['fara', 'ahmad', 'maria', 'sarah'];
+console.log(owners.sort()); //now it sorts array in alphbetical manner
+//this actually mutates the original array
+console.log(owners)//<--  mutated
+
+
+
+
+
+
+
