@@ -773,11 +773,14 @@ console.log(owners.sort()); //now it sorts array in alphbetical manner
 console.log(owners)//<--  mutated
 
 
-
-
-
-
-
+// Numbers -- sort
+console.log(movements); //orignal array
+//console.log(movements.sort()); //sorted array
+// if we take a look at results now its not what we expect to see
+// the numbers are not sorted at all
+//// the reason for this is ... the sort method does the sorting based on strings that works by default
+/// [-130,-->1  -400,-->4 -650, -->6  1300,-->1 200,-->2  3000,-->3 450,-->4 70-->7]
+//if it were strings --> goes by 123 sort method 
 
 
 
