@@ -812,5 +812,16 @@ console.log(movements)
 
 
 
+//decending 3️⃣2️⃣1️⃣
+//sort the opposite way decending large to small
+/* movements.sort((a, b) => {
+  if(a > b)
+  return -1;
+  
+  if(b > a)
+    return 1
+  }) */
+
+
 
 
