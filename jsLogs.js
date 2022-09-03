@@ -833,3 +833,32 @@ console.log(movements)
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+//practice]1
+
+// we get array of arrays like this
+const bankDepositSum = accounts.map(acc => acc.movements)
+console.log(bankDepositSum)
+
+
+// with flatMap we get a big array of arrays in one 
+const bankDepositSum2 = accounts
+//flatens the results into one big array
+.flatMap(acc => acc.movements)
+//filter deposits based on mathimatic condition greater than 0
+.filter(mov => mov > 0)
+///adding them all togther  reducing into one array of total 
+.reduce((sum, current) => sum + current, 0);
+console.log(bankDepositSum2)
+
+
