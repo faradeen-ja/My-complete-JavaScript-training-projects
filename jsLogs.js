@@ -888,7 +888,18 @@ const sums = accounts
   current > 0 ? sums.deposits += current : sums.
   withdrawals += current;
   
-  
+     // to make it cleaner code with bracket notation 
+  //sums[current > 0 ? 'deposits' : 'withdrawals'] += current;
+  //return sums;
+
+  return sums;
+ 
+
+},
+{deposits: 0, withdrawals: 0})
+
+
+console.log(sums)
 
 
 
