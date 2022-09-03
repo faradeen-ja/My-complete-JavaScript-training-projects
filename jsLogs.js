@@ -874,3 +874,22 @@ const numberOFDeposits1000 = accounts
 .reduce((count, current) => (current >= 1000 ? ++count : count), 0) // ++count or count + 1
 console.log(numberOFDeposits1000)
 
+
+
+
+
+//3 
+// put withdrawals and deposits together 
+//const {despsits, withdrawals} = accounts or you can use const sums = accounts
+const sums = accounts
+.flatMap(acc => acc.movements)
+.reduce((sums, current) => {
+  // with dot notation 
+  current > 0 ? sums.deposits += current : sums.
+  withdrawals += current;
+  
+  
+
+
+
+
