@@ -862,3 +862,15 @@ const bankDepositSum2 = accounts
 console.log(bankDepositSum2)
 
 
+
+
+
+
+//practice]2
+//count deposits with at least >= 1000 USD
+
+const numberOFDeposits1000 = accounts
+.flatMap(acc => acc.movements)
+.reduce((count, current) => (current >= 1000 ? ++count : count), 0) // ++count or count + 1
+console.log(numberOFDeposits1000)
+
