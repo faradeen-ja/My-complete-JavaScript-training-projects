@@ -960,6 +960,24 @@ const dogs = [
     owners: ['Alice', 'Bob'],
 
   },
+  {
+    weight: 8,
+    curFood: 200,
+    owners: ['maria']
+  }, 
+
+  {
+    weight: 13, 
+    curFood: 275,
+    owners: ['sarah', 'jacky']
+  },
+
+  {
+    weight: 32,
+    curFood: 340, 
+    owners: ['mooji']
+  }
+];
   
 
 
