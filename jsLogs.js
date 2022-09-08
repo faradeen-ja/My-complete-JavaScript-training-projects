@@ -925,7 +925,15 @@ const convertTitileCase = function(title){
    // then we use the ? : ternary boolean if the exception is true or not if yes return that word if not next step capialize it
   .map(word => exceptions.includes(word) ? word : capitalize(word))
   .join(' ')
+  
+ return capitalize(titleCase);
 
+  // capitalize non exeptioin words
+  // use map
+
+
+
+}
 
 
 
