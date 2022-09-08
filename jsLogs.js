@@ -936,6 +936,13 @@ const convertTitileCase = function(title){
 }
 
 
+console.log(convertTitileCase('this is a nice title but not a long title'));
+console.log(convertTitileCase('the airplane can fly in the air'));
+console.log(convertTitileCase('javascript is hard but you can learn it with a study plan in place'));
+
+
+
+
 
 
 
