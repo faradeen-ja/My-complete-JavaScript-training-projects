@@ -916,7 +916,15 @@ const convertTitileCase = function(title){
  // exceptions 
   const exceptions = ['a', 'an', 'the', 'but', 'or', 'on', 'in', 'with']
 //conversion step
-  
+  const titleCase = title
+  .toLowerCase() // to lowerCase
+  .split(' ') // split string into array each word will become one of the elements of the array
+
+   //map -> we want to go thru the array now and find index 0 of each word to capitalize based on index 
+   // use another logic to check if first index [0] indclues the exception letter 
+   // then we use the ? : ternary boolean if the exception is true or not if yes return that word if not next step capialize it
+  .map(word => exceptions.includes(word) ? word : capitalize(word))
+  .join(' ')
 
 
 
