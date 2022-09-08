@@ -981,4 +981,22 @@ const dogs = [
   
 
 
+  dogs. forEach(dog => (dog.recFood = Math.trunc(dog
+  .weight ** 0.75 * 28)))
+
+  console.log(dogs)
+
+
+
+const findDog = dogs 
+.find(dog => dog.owners
+.includes('sarah'));
+console.log(findDog)
+console.log(`sarah's dog is eating 
+${findDog.curFood > findDog.recFood ?
+ 'much' : 'too little'} `);
+
+
+
+
 
