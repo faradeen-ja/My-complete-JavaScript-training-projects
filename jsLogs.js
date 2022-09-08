@@ -944,6 +944,23 @@ console.log(convertTitileCase('javascript is hard but you can learn it with a st
 
 
 
+///////////////////////challenge/////////////////////////////////
+
+
+// find dogs eating too much to little 
+// find dogs owners names 
+// loop over the objects array
+
+
+
+const dogs = [
+  {
+    weight: 22,
+    curFood: 250, 
+    owners: ['Alice', 'Bob'],
+
+  },
+  
 
 
 
