@@ -904,3 +904,23 @@ console.log(sums)
 
 
 
+
+
+/// create a simple function to convert any string to Title Case
+/// words in sentence capitalized with some exceptions
+////e.g. this is a nice title -> This Is a Nice Title
+
+const convertTitileCase = function(title){
+  // to make a general funciton for the first word of the sentence to make capitalize from exceptions words if comes in the begining of the sentence
+  const capitalize = str => str[0].toUpperCase() + str.slice(1)
+ // exceptions 
+  const exceptions = ['a', 'an', 'the', 'but', 'or', 'on', 'in', 'with']
+//conversion step
+  
+
+
+
+
+
+
+
