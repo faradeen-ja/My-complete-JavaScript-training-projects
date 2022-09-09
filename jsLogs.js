@@ -1070,3 +1070,10 @@ console.log(Number.isNaN(20/0)) // false  infinity
 /// isFinite
 console.log(Number.isFinite(20))// true
 console.log(Number.isFinite('20')) //false
+
+
+
+//isInteger
+console.log(Number.isInteger(1111)); //true
+console.log(Number.isInteger(111.11)); //false
+console.log(Number.isInteger(23 / 0)) //false
