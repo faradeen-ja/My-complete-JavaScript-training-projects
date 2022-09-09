@@ -1032,6 +1032,16 @@ console.log(23 === 23.0)
 // base 10 numbers 0-9 while binary is based 2 = 0 and 1
 // e.g. of that is the fraction 0.1
 
+console.log(0.1 + 0.2); // funnny js joke
+//in base 10  1/10 = 0.1
+// if we devide 3/10 = 3.3333333 it will be infinity 
+// catch errors
+console.log(0. + 0.2 === 0.3)// it should be true but you know why not in this case?
+
+
+
+////////////////////////working with numbers/////more>//////////////////
+
 
 
 
