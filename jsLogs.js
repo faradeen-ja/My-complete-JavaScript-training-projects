@@ -1056,3 +1056,11 @@ console.log(Number.parseInt('text200')) // it will not work NaN
 console.log((Number.parseFloat('111.11rem'))) // parseFloat will return with decimal point
 console.log(Number.parseInt('111.11rem')) //parseInt will return only fixed number 
 
+
+
+///isNaN
+// isNaN is not a number checking if value is number 
+console.log(Number.isNaN(20)) // is a number 
+console.log(Number.isNaN('20')) // is number
+console.log(Number.isNaN(+ '20X')) // is nan
+console.log(Number.isNaN(20/0)) // false  infinity
