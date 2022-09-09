@@ -1051,3 +1051,8 @@ console.log(+ '111'); // js sees the + operator it will do type coersion convert
 console.log(Number.parseInt('30px')) // it will work it needs to start with a number 
 console.log(Number.parseInt('text200')) // it will not work NaN
 
+
+/// parsefloat conversion 
+console.log((Number.parseFloat('111.11rem'))) // parseFloat will return with decimal point
+console.log(Number.parseInt('111.11rem')) //parseInt will return only fixed number 
+
