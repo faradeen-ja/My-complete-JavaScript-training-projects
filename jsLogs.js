@@ -1028,4 +1028,10 @@ console.log(23 === 23.0)
 // and you see that 23 = 23.0 thats the reason we only have one data type for all numbers
 // numbers are represented in a 64 base 2 format, this means number are stored in a binary format = 0 and 1
 
+// it can't work really well to get a number in base 10 this way
+// base 10 numbers 0-9 while binary is based 2 = 0 and 1
+// e.g. of that is the fraction 0.1
+
+
+
 
