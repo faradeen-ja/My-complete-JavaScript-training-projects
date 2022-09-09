@@ -1021,6 +1021,11 @@ console.log(dogsEatTooLittle)
 ////////////////
 ////////////////////////working with numbers in JavaScript // tricks /tips///////////////////////
 
-
+// in js all numbers are repressented as floating point numbers
+//always has decimals no mmatterr how we write them
+// e.g.
+console.log(23 === 23.0) 
+// and you see that 23 = 23.0 thats the reason we only have one data type for all numbers
+// numbers are represented in a 64 base 2 format, this means number are stored in a binary format = 0 and 1
 
 
