@@ -1012,3 +1012,15 @@ const dogsEatTooLittle = dogs
 //.flat()
 console.log(dogsEatTooLittle)
 
+
+
+
+
+
+
+////////////////
+////////////////////////working with numbers in JavaScript // tricks /tips///////////////////////
+
+
+
+
