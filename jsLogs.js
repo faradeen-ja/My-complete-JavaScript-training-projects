@@ -1042,6 +1042,10 @@ console.log(0. + 0.2 === 0.3)// it should be true but you know why not in this c
 
 ////////////////////////working with numbers/////more>//////////////////
 
+/// conversion 
+console.log(Number('111'));
+console.log(+ '111'); // js sees the + operator it will do type coersion converts to number 
+
 
 
 
