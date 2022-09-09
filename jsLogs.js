@@ -1047,5 +1047,7 @@ console.log(Number('111'));
 console.log(+ '111'); // js sees the + operator it will do type coersion converts to number 
 
 
-
+/// parsing
+console.log(Number.parseInt('30px')) // it will work it needs to start with a number 
+console.log(Number.parseInt('text200')) // it will not work NaN
 
