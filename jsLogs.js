@@ -1064,3 +1064,9 @@ console.log(Number.isNaN(20)) // is a number
 console.log(Number.isNaN('20')) // is number
 console.log(Number.isNaN(+ '20X')) // is nan
 console.log(Number.isNaN(20/0)) // false  infinity
+
+
+
+/// isFinite
+console.log(Number.isFinite(20))// true
+console.log(Number.isFinite('20')) //false
