@@ -1058,8 +1058,8 @@ console.log(Number.parseInt('111.11rem')) //parseInt will return only fixed numb
 
 
 
-///isNaN
-// isNaN is not a number checking if value is number 
+/// isNaN
+/// isNaN is not a number checking if value is number 
 console.log(Number.isNaN(20)) // is a number 
 console.log(Number.isNaN('20')) // is number
 console.log(Number.isNaN(+ '20X')) // is nan
