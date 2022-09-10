@@ -1085,4 +1085,8 @@ console.log(Number.isInteger(23 / 0)) //false
 ///////////////////////////////////////numbers, dates, intl and timers/////////////////////////////////////////
 ///  operations 
 
+//[] root sqour root 
+console.log(Math.sqrt(25)); 
+console.log(25 ** (1 / 2)) // same thing can be done using exponentiation operator as well
 
+console.log(8 ** (1 / 3)) //quebec root
