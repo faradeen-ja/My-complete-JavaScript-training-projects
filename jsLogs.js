@@ -1102,4 +1102,7 @@ console.log(Math.max(5, 18, '23px', 11, 44)) // max function do type coersion bu
 console.log(Math.min(5, 7, 11, 1)) // returns min small number value 
 
 
-
+//Pi
+//constance  if we want to calc the radius of a circle 
+// this is how we can calculate the area of circle
+console.log(Math.PI * Number.parseFloat('10px') ** 2)
