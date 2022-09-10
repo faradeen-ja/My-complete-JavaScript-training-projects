@@ -1106,3 +1106,8 @@ console.log(Math.min(5, 7, 11, 1)) // returns min small number value
 //constance  if we want to calc the radius of a circle 
 // this is how we can calculate the area of circle
 console.log(Math.PI * Number.parseFloat('10px') ** 2)
+
+
+//random numbers
+console.log(Math.random() * 6) // gives us a random number 
+console.log(Math.trunc(Math.random() * 6) +1) // add truncation to cut off the decimal part 
