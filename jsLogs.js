@@ -1077,3 +1077,12 @@ console.log(Number.isFinite('20')) //false
 console.log(Number.isInteger(1111)); //true
 console.log(Number.isInteger(111.11)); //false
 console.log(Number.isInteger(23 / 0)) //false
+
+
+
+
+
+///////////////////////////////////////numbers, dates, intl and timers/////////////////////////////////////////
+///  operations 
+
+
