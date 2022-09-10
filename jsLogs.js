@@ -1090,3 +1090,9 @@ console.log(Math.sqrt(25));
 console.log(25 ** (1 / 2)) // same thing can be done using exponentiation operator as well
 
 console.log(8 ** (1 / 3)) //quebec root
+
+
+//max
+console.log(Math.max(5, 18, 23, 11, 44)) // returns max value bigger namuber 
+console.log(Math.max(5, 18, '23', 11, 44)) // max function do type coersion but it wont parse 
+console.log(Math.max(5, 18, '23px', 11, 44)) // max function do type coersion but it wont parseInt 
