@@ -1161,3 +1161,10 @@ console.log(+(2.111).toFixed(2))
 
 
 
+///////// ////////// ///////////
+// //////////////////////////////////////////applying floor/ toFixed methods to our app/////////////////////////////////////////////
+// rounds up or down a number of loan request
+// line 211 
+const amount = Math.floor(inputLoanAmount.value);
+
+
