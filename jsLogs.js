@@ -1170,3 +1170,6 @@ const amount = Math.floor(inputLoanAmount.value);
 // toFixed (2) --> adds 2 decimal part at the end of the value  to fixed value 
 // line 97 
 // <div class="movements__value">${mov.toFixed(2)}€</div>
+// labelBalance.textContent = `${acc.balance.toFixed(2)}€`;
+// line 114 
+// labelSumIn.textContent = `${incomes.toFixed(2)}€`;
