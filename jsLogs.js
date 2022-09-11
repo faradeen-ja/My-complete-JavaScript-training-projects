@@ -1173,3 +1173,6 @@ const amount = Math.floor(inputLoanAmount.value);
 // labelBalance.textContent = `${acc.balance.toFixed(2)}€`;
 // line 114 
 // labelSumIn.textContent = `${incomes.toFixed(2)}€`;
+// labelSumOut.textContent = `${Math.abs(out).toFixed(2)}€`;
+// line 129 
+// labelSumInterest.textContent = `${interest.toFixed(2)}€`;
