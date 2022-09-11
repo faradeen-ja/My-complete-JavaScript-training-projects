@@ -1113,6 +1113,12 @@ console.log(Math.random() * 6) // gives us a random number
 console.log(Math.trunc(Math.random() * 6) +1) // add truncation to cut off the decimal part 
 
 
+console.log('rounding with ceil')
+// always rounds up with any decimal part high or low 
+console.log(Math.ceil(20.30));  // 21 rounds up
+console.log(Math.ceil(20.90)); // 21 rounds up
+
+
 
 // real-usecase e.g.
 // formula we can use to always generate a random integers  between  2 values
