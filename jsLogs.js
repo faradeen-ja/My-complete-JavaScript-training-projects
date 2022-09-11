@@ -1139,3 +1139,11 @@ console.log('rounding with round')
 console.log(Math.round(20.30));  // 20 rounds down
 console.log(Math.round(20.90)); // 21 rounds up
 console.log(Math.round(20.51)); // 21 rounds up
+
+
+console.log('rounding with floorl')
+// always rounds down with any decimal part floor it 
+console.log(Math.floor(20.30));  // 20 rounds down
+console.log(Math.floor(20.90)); // 20 rounds up
+
+console.log(Math.floor(-11.22))// it works backwards and rounds up if negative works on negative and positive number 
