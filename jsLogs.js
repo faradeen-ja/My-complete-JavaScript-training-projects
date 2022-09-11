@@ -1111,3 +1111,12 @@ console.log(Math.PI * Number.parseFloat('10px') ** 2)
 //random numbers
 console.log(Math.random() * 6) // gives us a random number 
 console.log(Math.trunc(Math.random() * 6) +1) // add truncation to cut off the decimal part 
+
+
+
+// real-usecase e.g.
+// formula we can use to always generate a random integers  between  2 values
+const randomInt = (min, max) => 
+Math.trunc(Math.random() * (max - min) + 1) + min;
+// it gives us a number between 0 and 1   
+console.log(randomInt(10, 20))    
