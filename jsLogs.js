@@ -1167,4 +1167,6 @@ console.log(+(2.111).toFixed(2))
 // line 211 
 const amount = Math.floor(inputLoanAmount.value);
 
-
+// toFixed (2) --> adds 2 decimal part at the end of the value  to fixed value 
+// line 97 
+// <div class="movements__value">${mov.toFixed(2)}€</div>
