@@ -1127,3 +1127,9 @@ console.log(randomInt(10, 20))
 
 ///////////////////////////////////rounding integers/////////////////////////////////
 console.log(Math.trunc(20.30)) // removes decimals    // 20
+
+// other ways 
+console.log('rounding with round')
+console.log(Math.round(20.30));  // 20 rounds down
+console.log(Math.round(20.90)); // 21 rounds up
+console.log(Math.round(20.51)); // 21 rounds up
