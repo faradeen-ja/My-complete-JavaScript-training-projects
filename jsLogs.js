@@ -1120,3 +1120,10 @@ const randomInt = (min, max) =>
 Math.trunc(Math.random() * (max - min) + 1) + min;
 // it gives us a number between 0 and 1   
 console.log(randomInt(10, 20))    
+
+
+
+
+
+///////////////////////////////////rounding integers/////////////////////////////////
+console.log(Math.trunc(20.30)) // removes decimals    // 20
