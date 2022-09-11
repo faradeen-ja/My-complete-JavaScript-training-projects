@@ -1147,3 +1147,17 @@ console.log(Math.floor(20.30));  // 20 rounds down
 console.log(Math.floor(20.90)); // 20 rounds up
 
 console.log(Math.floor(-11.22))// it works backwards and rounds up if negative works on negative and positive number 
+
+
+
+
+/// rounding decimals
+//toFixed will alwyas return a string 
+console.log((2.11).toFixed(0)) 
+console.log((2.11).toFixed(3))//it add 3decimal part 
+console.log((2.111).toFixed(2))
+console.log(+(2.111).toFixed(2))
+
+
+
+
