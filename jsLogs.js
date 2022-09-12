@@ -1188,3 +1188,15 @@ console.log(4 % 2) // returns 0
 console.log(5 / 2); // 2.5
 console.log(111 % 99) // 111 /  99 = 1.1222222 so 12 will be the remainder
 
+
+
+// create a remainder function to test even or odd numbers 
+
+// funcstoin expression
+const isEven = function(n){
+  if(n % 2 === 0){
+    return true;
+  } else{
+    return false;
+  }
+}
