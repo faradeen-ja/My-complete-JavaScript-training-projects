@@ -1185,5 +1185,6 @@ const amount = Math.floor(inputLoanAmount.value);
 console.log(5 % 2); // returns 1 why is that?
 // if we divide 4 by 2 the result would be 0 no remainder 
 console.log(4 % 2) // returns 0 
-
+console.log(5 / 2); // 2.5
+console.log(111 % 99) // 111 /  99 = 1.1222222 so 12 will be the remainder
 
