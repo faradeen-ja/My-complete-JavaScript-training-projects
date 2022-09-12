@@ -1200,3 +1200,5 @@ const isEven = function(n){
     return false;
   }
 }
+console.log(isEven(2))
+console.log(isEven(111))
