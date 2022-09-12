@@ -1209,3 +1209,11 @@ console.log(isEvenOrOdd(100))
 ///////////// remainder: coloring the odd or even rows of the movements list transactions
 
 labelBalance.addEventListener('click', function(){
+  [...document.querySelectorAll('.movements__row')].
+  forEach(function(row, i) {
+    if ( i % 2 === 0) row.style.backgroundColor = 'green';
+    if (i % 3 === 0) row.style.backgroundColor = 'blue'
+  
+  });
+
+});
