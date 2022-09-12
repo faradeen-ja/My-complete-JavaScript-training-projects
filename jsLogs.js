@@ -1202,3 +1202,5 @@ const isEven = function(n){
 }
 console.log(isEven(2))
 console.log(isEven(111))
+console.log(isEvenOrOdd(77))
+console.log(isEvenOrOdd(100))
