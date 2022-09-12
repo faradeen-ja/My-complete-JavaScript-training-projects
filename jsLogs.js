@@ -1204,3 +1204,8 @@ console.log(isEven(2))
 console.log(isEven(111))
 console.log(isEvenOrOdd(77))
 console.log(isEvenOrOdd(100))
+
+
+///////////// remainder: coloring the odd or even rows of the movements list transactions
+
+labelBalance.addEventListener('click', function(){
