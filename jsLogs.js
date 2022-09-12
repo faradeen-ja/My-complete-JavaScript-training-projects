@@ -1176,3 +1176,14 @@ const amount = Math.floor(inputLoanAmount.value);
 // labelSumOut.textContent = `${Math.abs(out).toFixed(2)}€`;
 // line 129 
 // labelSumInterest.textContent = `${interest.toFixed(2)}€`;
+
+
+
+
+//////////////////////// Remainder operator //////////////////////////////////////////////////////////////////////
+// simply returns the remainder of a division  %
+console.log(5 % 2); // returns 1 why is that?
+// if we divide 4 by 2 the result would be 0 no remainder 
+console.log(4 % 2) // returns 0 
+
+
