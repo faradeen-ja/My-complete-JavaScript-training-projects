@@ -1226,3 +1226,8 @@ labelBalance.addEventListener('click', function(){
 // JS CAN ONLY REPRESENT THIS NUMBER NOT bigger
 console.log(2 ** 53 - 1);
 console.log(Number.MAX_SAFE_INTEGER);
+
+
+//es2020 A NEW PRIMITIVE WAS ADDED IN JS TO HAVE 60 BITS NUMBERS LARGER
+console.log(45878466666666666666666666666666n);
+console.log(BigInt(45878466666666))
