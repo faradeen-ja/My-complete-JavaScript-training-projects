@@ -1217,3 +1217,10 @@ labelBalance.addEventListener('click', function(){
   });
 
 });
+
+
+
+
+//prmitive data
+///////////////////////////////////////////////bigInT/////////////////////////////////////////
+// JS CAN ONLY REPRESENT THIS NUMBER NOT bigger
