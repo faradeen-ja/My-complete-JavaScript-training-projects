@@ -1239,3 +1239,6 @@ console.log(10000n + 10000n)
 //e.g.
 const hugeNum = 545566655226655655565n;
 const regNum = 22;
+console.log(hugeNum * BigInt(regNum)) // we need to use constructor BigInt function 
+// compareson operator 
+console.log(20n > 15); 
