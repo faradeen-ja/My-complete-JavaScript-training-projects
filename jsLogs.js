@@ -1234,3 +1234,8 @@ console.log(BigInt(45878466666666))
 
 //operations are used the same 
 console.log(10000n + 10000n)
+
+///not posible to mix bigint with regular numbers
+//e.g.
+const hugeNum = 545566655226655655565n;
+const regNum = 22;
