@@ -1224,3 +1224,5 @@ labelBalance.addEventListener('click', function(){
 //prmitive data
 ///////////////////////////////////////////////bigInT/////////////////////////////////////////
 // JS CAN ONLY REPRESENT THIS NUMBER NOT bigger
+console.log(2 ** 53 - 1);
+console.log(Number.MAX_SAFE_INTEGER);
