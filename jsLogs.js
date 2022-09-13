@@ -1231,3 +1231,6 @@ console.log(Number.MAX_SAFE_INTEGER);
 //es2020 A NEW PRIMITIVE WAS ADDED IN JS TO HAVE 60 BITS NUMBERS LARGER
 console.log(45878466666666666666666666666666n);
 console.log(BigInt(45878466666666))
+
+//operations are used the same 
+console.log(10000n + 10000n)
