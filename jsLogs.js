@@ -1255,3 +1255,7 @@ console.log(20n == 20) //converted to num by coerce
 //errors cannot mis bigint and other types use explicit conversions
 console.log(10n / 3n) // works
 
+
+////////////////////////////////////////////////creating dates///////////////////////////////.
+//there are 4 ways 
+
