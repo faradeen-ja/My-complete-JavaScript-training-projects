@@ -1265,3 +1265,8 @@ console.log(now);
 
 //2. parse the date
 console.log(new Date('Aug 06 2022 6:6:6'))
+console.log(new Date(account1.movementsDates[0]))
+
+// time stamp now
+console.log(Date.now())
+console.log(Date.now())
