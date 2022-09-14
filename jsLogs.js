@@ -1259,3 +1259,7 @@ console.log(10n / 3n) // works
 ////////////////////////////////////////////////creating dates///////////////////////////////.
 //there are 4 ways 
 
+//1. 
+const now = new Date();
+console.log(now);
+
