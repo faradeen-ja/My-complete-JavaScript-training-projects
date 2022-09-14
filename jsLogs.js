@@ -1247,3 +1247,11 @@ console.log(typeof 20n)
 ///coerce = convert something
 //e.g.
 console.log(20n == 20) //converted to num by coerce 
+
+
+
+//divisions
+//console.log(10 / 3n)
+//errors cannot mis bigint and other types use explicit conversions
+console.log(10n / 3n) // works
+
