@@ -1263,3 +1263,5 @@ console.log(10n / 3n) // works
 const now = new Date();
 console.log(now);
 
+//2. parse the date
+console.log(new Date('Aug 06 2022 6:6:6'))
