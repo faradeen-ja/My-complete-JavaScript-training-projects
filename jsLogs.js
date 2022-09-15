@@ -1275,3 +1275,10 @@ console.log(Date.now())
 //////////operations with dates++++++++++++++++++++++++++++++++++++==================
 const future = new Date(2090, 10, 19, 15, 23);
 console.log(+future) //future
+
+
+
+
+
+////////////////////////Internationalization dates and numbers///////////////////////////////////
+
