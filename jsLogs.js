@@ -1282,3 +1282,5 @@ console.log(+future) //future
 
 ////////////////////////Internationalization dates and numbers///////////////////////////////////
 
+// to the app
+const now2 = new Date()
