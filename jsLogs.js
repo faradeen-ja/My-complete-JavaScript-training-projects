@@ -1287,6 +1287,11 @@ const now2 = new Date()
 const options = {
 hour: 'numeric',
 minute: 'numeric',
+day: 'numeric',
+month: 'long', // short long or numeric digits 2-digit
+year: 'numeric', 
+weekday: 'long'// you can use long short narrow 
+}
 
 
 
