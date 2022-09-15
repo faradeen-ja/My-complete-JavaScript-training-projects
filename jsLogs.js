@@ -1295,3 +1295,4 @@ weekday: 'long'// you can use long short narrow
 
 
 
+//automatically getting the lacale languages from user end browser or location 
