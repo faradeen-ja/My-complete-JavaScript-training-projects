@@ -1295,4 +1295,7 @@ weekday: 'long'// you can use long short narrow
 
 
 
-//automatically getting the lacale languages from user end browser or location 
+//automatically getting the locale languages from user end browser or location 
+const locale = navigator.language;
+labelDate.textContent = new Intl.DateTimeFormat
+(locale, options).format(now2)
