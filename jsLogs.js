@@ -1299,3 +1299,8 @@ weekday: 'long'// you can use long short narrow
 const locale = navigator.language;
 labelDate.textContent = new Intl.DateTimeFormat
 (locale, options).format(now2)
+
+//maually getting the local language by specifiying it here
+//labelDate.textContent = new Intl.DateTimeFormat
+//('en-US', options).format(now2) //en-US is the locale language can change
+
