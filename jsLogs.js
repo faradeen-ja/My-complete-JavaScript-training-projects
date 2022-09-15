@@ -1284,3 +1284,9 @@ console.log(+future) //future
 
 // to the app
 const now2 = new Date()
+const options = {
+hour: 'numeric',
+minute: 'numeric',
+
+
+
