@@ -1331,3 +1331,5 @@ const optionsMoney = {
 }
 console.log('US:', new Intl.NumberFormat
 ('en-US', optionsNumbers).format(num))
+console.log('Dubai:', new Intl.NumberFormat
+('ar-AE', optionsNumbers).format(num))
