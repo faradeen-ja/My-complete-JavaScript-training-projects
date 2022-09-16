@@ -1304,3 +1304,13 @@ labelDate.textContent = new Intl.DateTimeFormat
 //labelDate.textContent = new Intl.DateTimeFormat
 //('en-US', options).format(now2) //en-US is the locale language can change
 
+
+//////////format numbers
+const num = 879898446;
+//1.
+///making it more complex using adding many number types like units and so
+const optionsNumbers = {
+  style: 'unit',
+  unit: 'mile-per-hour',
+  userGrouping: false,
+}
