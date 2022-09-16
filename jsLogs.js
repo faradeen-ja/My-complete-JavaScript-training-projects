@@ -1321,3 +1321,11 @@ const optionsTemp = {
   style: 'precent',
   unit: 'degree or celsius'
 }
+
+//3.
+//currency units 
+const optionsMoney = {
+  style: 'curren',
+  unit: '',
+  currency: 'USD'
+}
