@@ -1339,4 +1339,5 @@ console.log('Farsi:', new Intl.NumberFormat
 
 //using locale language setting automatically
 console.log(navigator.language, new Intl.NumberFormat
+(navigator.language, optionsNumbers).format(num))
 
