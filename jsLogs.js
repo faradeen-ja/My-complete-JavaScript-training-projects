@@ -1329,3 +1329,5 @@ const optionsMoney = {
   unit: '',
   currency: 'USD'
 }
+console.log('US:', new Intl.NumberFormat
+('en-US', optionsNumbers).format(num))
