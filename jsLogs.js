@@ -1314,3 +1314,10 @@ const optionsNumbers = {
   unit: 'mile-per-hour',
   userGrouping: false,
 }
+
+//2.
+//tempreture units or degrees
+const optionsTemp = {
+  style: 'precent',
+  unit: 'degree or celsius'
+}
