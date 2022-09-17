@@ -15,7 +15,7 @@ console.log(javaScriptsLogs.progress)
 
 /////////////////////////////////////////////////
 /////////////////////////////////////////////////
-// BANKIST APP
+// BANKIST APP DEVELOPMENT
 
 // Data
 const account1 = {
@@ -1359,5 +1359,10 @@ console.log('waiting...') /// proof that other code excecution will continues / 
 /////////////
 //put comment lines and just type setTimeout --> it will populate the full function of it auto fill 
 
-
+// another way
+// ing array first 
+// set timer
+// set timer stop 
+const ings = ['olives', 'spinach'];
+const timerTest = setTimeout((ing1, ing2) => {
 
