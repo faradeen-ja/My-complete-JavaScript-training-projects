@@ -1366,3 +1366,8 @@ console.log('waiting...') /// proof that other code excecution will continues / 
 const ings = ['olives', 'spinach'];
 const timerTest = setTimeout((ing1, ing2) => {
 
+   console.log(`pizza with new clear time out`) 
+  
+}, 3000, ...ings);
+
+if(ings.includes('spinach')) clearTimeout(timerTest) //stops timer and code execution 
