@@ -1350,3 +1350,8 @@ console.log(navigator.language, new Intl.NumberFormat
 setTimeout((ing1 , ing2) => {
   ing1 = 'olives', 
   ing2 = 'avacado'
+  
+   console.log(`here is your pizaa2 with ${ing1} and ${ing2}`)
+
+}, 3000);  // 3 secs
+
