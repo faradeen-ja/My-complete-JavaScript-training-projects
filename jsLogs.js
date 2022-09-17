@@ -1355,3 +1355,9 @@ setTimeout((ing1 , ing2) => {
 
 }, 3000);  // 3 secs
 
+console.log('waiting...') /// proof that other code excecution will continues / wont affect other codes 
+/////////////
+//put comment lines and just type setTimeout --> it will populate the full function of it auto fill 
+
+
+
