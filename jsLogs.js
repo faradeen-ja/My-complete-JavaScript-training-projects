@@ -1347,3 +1347,6 @@ console.log(navigator.language, new Intl.NumberFormat
 /////////////////////////////////////Timers////////mechanism called Asyn JS////////////////////////////////////////////
 // set timeout timer  --> runs just once 
 // set interval timer --> keeps running forever 
+setTimeout((ing1 , ing2) => {
+  ing1 = 'olives', 
+  ing2 = 'avacado'
