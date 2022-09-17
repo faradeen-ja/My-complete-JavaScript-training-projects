@@ -1371,3 +1371,10 @@ const timerTest = setTimeout((ing1, ing2) => {
 }, 3000, ...ings);
 
 if(ings.includes('spinach')) clearTimeout(timerTest) //stops timer and code execution 
+
+//// setInterval  
+setInterval(function() {
+  const now = new Date();
+  console.log(now)
+  
+}, 1000000)//set 1000 ms); //inerval go here 1000 = 1 second
