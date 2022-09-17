@@ -1341,3 +1341,9 @@ console.log('Farsi:', new Intl.NumberFormat
 console.log(navigator.language, new Intl.NumberFormat
 (navigator.language, optionsNumbers).format(num))
 
+
+
+
+/////////////////////////////////////Timers////////mechanism called Asyn JS////////////////////////////////////////////
+// set timeout timer  --> runs just once 
+// set interval timer --> keeps running forever 
