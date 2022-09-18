@@ -27,3 +27,13 @@
       console.log('fara');
 
       console.log(23);
+
+
+      let firstNameOne = "fara";
+      let first = 'fara'
+      let last = 'j'
+      
+      
+      console.log(firstNameOne);
+      console.log(firstNameOne);
+      console.log(firstNameOne);
