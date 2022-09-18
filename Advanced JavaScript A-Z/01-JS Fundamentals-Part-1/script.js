@@ -13,3 +13,17 @@
 //copy line of code down
 
 //CTRL + /  single line commnet
+
+
+
+
+/ Working with varibales in JavaScript
+
+     let js = 'amazing';
+     
+      40 + 30 - 4;
+      console.log(40 + 30 - 4);
+
+      console.log('fara');
+
+      console.log(23);
