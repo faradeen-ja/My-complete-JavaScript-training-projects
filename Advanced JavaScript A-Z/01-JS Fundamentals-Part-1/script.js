@@ -40,6 +40,12 @@
 
 // better code writting wth camelCase notation. 
 // think of variables as a box that you store things in it and you are able to take each item out when needed to use, look at or destroy it. 
-// -in JavaScript you can compare these real-life examples declaring or calling upon a variable you use in your code. 
+// -in JavaScript you can compare these real-life examples declaring or calling upon a variables you use in your code. 
+
+let pets = [cats, dogs];
+let catName = "sally";
+let dogsAges = [2, 5];
+
+console.log(pets, catName, dogsAges)
 
 
