@@ -17,7 +17,7 @@
 
 
 
-/ Working with varibales in JavaScript
+// Working with varibales in JavaScript
 
      let js = 'amazing';
      
@@ -42,10 +42,12 @@
 // think of variables as a box that you store things in it and you are able to take each item out when needed to use, look at or destroy it. 
 // -in JavaScript you can compare these real-life examples declaring or calling upon a variables you use in your code. 
 
-let pets = [cats, dogs];
+let pets = "cats, dogs";
 let catName = "sally";
 let dogsAges = [2, 5];
 
-console.log(pets, catName, dogsAges)
-
+// logging results into console
+console.log(pets) // cats, dogs
+console.log(catName) // sally
+cosole.log(dogsAges[0]) // 2
 
