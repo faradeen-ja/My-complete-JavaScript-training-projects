@@ -33,7 +33,6 @@
       let first = 'fara'
       let last = 'j'
       
-      
       console.log(firstNameOne);
       console.log(firstNameOne);
       console.log(firstNameOne);
@@ -64,4 +63,9 @@ cosole.log(dogsAges[0]) // 2
 ///5 - [Null] also means empty values
 ///6 - [Symbols #$@%] 
 ///7 - [BigInt Bigintergers] long mathimatics numbers
+
+
+let javaScriptisFun = true
+console.log(javaScriptisFun);
+
 
