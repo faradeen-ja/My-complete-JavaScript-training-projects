@@ -102,6 +102,14 @@ carModel = "Ferarri"; // this will log error into console --> Uncaught TypeError
 carModel ="bmw"; // --> Uncaught TypeError: Assignment to constant variable.
 
 
+// var
+// var keyword is not used today  = old  and can be reAssgined 
+// dangerous to use in your code because you may use same varible in many places results in bugs 
+var job = "coder"; // first value assigned 
+job  = "noder"; // second value re-assigned <- javaScript will run this 
+// if you console log job varialbe now it wil... output noder because it reassigned or changed the value to new value "noder" 
+console.log(job) // logs noder
+
 
 
 
