@@ -94,8 +94,9 @@ const carModel = "bmw";
 //e.g. 
 const carModel = "bmw";  // it will log this error --> Uncaught SyntaxError: Identifier 'carModel' has already been declared 
 //or 
-carModel = "bmw"; // this will log error into console --> Uncaught TypeError: Assignment to constant variable.
-
+carModel = "Ferarri"; // this will log error into console --> Uncaught TypeError: Assignment to constant variable.
+//or even if we store the same value
+carModel ="bmw"; // --> Uncaught TypeError: Assignment to constant variable.
 
 
 
