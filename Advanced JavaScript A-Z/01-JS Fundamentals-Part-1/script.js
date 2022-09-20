@@ -66,7 +66,10 @@ cosole.log(dogsAges[0]) // 2
 
 
 let javaScriptisFun = true
-
+console.log(javaScriptisFun)
 //typeOff
 console.log("ture is", typeof true); // true is boolean 
 console.log(typeof javaScriptisFun) // boolean
+console.log(typeof 123); //number
+cosole.log(typeof "I am a developer") //string
+console.log(typeoff abc123) // udefined 
