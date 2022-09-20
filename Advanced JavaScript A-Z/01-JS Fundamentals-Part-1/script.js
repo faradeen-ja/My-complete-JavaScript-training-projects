@@ -82,12 +82,15 @@ console.log(typeof 983493n) // bigInt int = integer
 
 //////////////////////////////var / let and const keywords/////////////////////////////////////
 // let
+// let keyword can be reassigned redeclared 
 let age = 98;
 age = 80;
 
 
+
 // const
 const carModel = "bmw";
+console.log(carModel); // logs bmw
 
 // if you try to redeclare or reasign carModel value it wont work
 // const variable declrations can not be reassigned or stored again 
