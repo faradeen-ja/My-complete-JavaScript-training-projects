@@ -80,4 +80,24 @@ console.log(typeof 983493n) // bigInt int = integer
 
 
 
+//////////////////////////////var / let and const keywords/////////////////////////////////////
+// let
+let age = 98;
+age = 80;
+
+
+// const
+const carModel = "bmw";
+
+// if you try to redeclare or reasign carModel value it wont work
+// const variable declrations can not be reassigned or stored again 
+//e.g. 
+const carModel = "bmw";  // it will log this error --> Uncaught SyntaxError: Identifier 'carModel' has already been declared 
+//or 
+carModel = "bmw"; // this will log error into console --> Uncaught TypeError: Assignment to constant variable.
+
+
+
+
+
 
