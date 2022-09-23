@@ -111,7 +111,10 @@ job  = "noder"; // second value re-assigned <- javaScript will run this
 console.log(job) // logs noder
 
 
-//varialbes best rules  
+//varialbes rules  
 //always declare variables meaning always store name and value by declraing it --> ✅let job = "coder"  ❌job = "coder"
-//let, const or var  is the keyword to declare our variables 
+//let, const or var  is the reserved keywords in js used to declare our variables 
+
+
+
 
