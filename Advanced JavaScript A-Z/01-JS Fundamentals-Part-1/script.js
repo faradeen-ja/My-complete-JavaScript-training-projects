@@ -116,15 +116,24 @@ console.log(job) // logs noder
 //let, const or var  is the reserved keywords in js used to declare our variables 
 
 
-//-------------------------------------------------------------Mathimatics Operations-------------------------------------------------------------------------//
+////////////////////////////////////
 //Transform or combine values with + - * / == = 
+// Basic Operators
+// Math operators
 
 const now = 2022; 
 const myAge =  now - 1991;
-console.log('You are', myAge); // logss You are 31
-
 const ageSarah = now - 1994; 
+
+console.log('You are',ageSarah, myAge); // logss You are 31
 console.log(ageSarah *3, myAge * 3 / 10, 2**3);
+
+const firstName = 'fara';
+const lastName = 'j';
+console.log(firstName + ' ' + lastName); // logs fara j  + ' ' + puts space 
+
+
+
 
 
 
