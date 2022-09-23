@@ -144,7 +144,7 @@ x *= 4; //x = x * 4 = 104
 x++ // increaments values by +1 
 x-- // decreases or decrements the valuse by -1
 
-
+console.log(x); //logs 104
 
 
 
