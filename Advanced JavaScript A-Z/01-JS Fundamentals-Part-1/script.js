@@ -133,10 +133,9 @@ const lastName = 'j';
 console.log(firstName + ' ' + lastName); // logs fara j  + ' ' + puts space 
 
 
-////////////////////////////////
+//////////////////////////////////
 //Asignment operators
 let x = 10 + 6;
-
 //x will be assigned the value of 16 
 //new x asignment as follow
 x += 10; //x = x + 10 = 26
@@ -145,6 +144,14 @@ x++ // increaments values by +1
 x-- // decreases or decrements the valuse by -1
 
 console.log(x); //logs 104
+
+
+
+/////////////////////////////////
+//Comparison operators >, <, >=, <= 
+console.log(myAge > ageSarah); // more than older than
+console.log(ageSarah  >= 18); // logs if ture of false
+
 
 
 
