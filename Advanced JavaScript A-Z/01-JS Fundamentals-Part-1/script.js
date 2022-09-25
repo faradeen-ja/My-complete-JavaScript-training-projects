@@ -185,5 +185,10 @@ console.log(dreamCar2);
 //using backticks ` ` instead of qoutes '' "" 
 console.log(` this is just another string with template literals ')
 
+//old ways using a new line with back slash 
+console.log('string with an old way js\n\
+miltiple \n\
+lines')
+
 
 
