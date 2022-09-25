@@ -168,11 +168,14 @@ console.log(myAge, ageSarah, averageAge);
 ////////////////////////////////
 //Strrrings and Template strings 
 
-//old ways
 const car = 'bmw'
 const tires = 4
 const color = 'yellow'
 const year = 1994
+
+//old ways getting varibles values as string output
+const dreamCar = 'This car is ' + car + ', a very fast car that has ' + tires + ' tires ' + 'color  is ' + color + ' it was built in year ' + year;
+console.log(dreamCar);
 
 
 
