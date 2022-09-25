@@ -190,5 +190,12 @@ console.log('string with an old way js\n\
 miltiple \n\
 lines')
 
+//new way using back ticks to make multi line strings. es6 
+console.log(`string with new way
+multiple
+lines`);
+
+
+
 
 
