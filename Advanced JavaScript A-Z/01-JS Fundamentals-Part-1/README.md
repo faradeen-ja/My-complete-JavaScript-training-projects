@@ -24,15 +24,6 @@ copy line of code down
 
 
 
-*single asterisks*
-
-_single underscores_
-
-**double asterisks**
-
-__double underscores__
 
 
 
-Use the `printf()` function.
-\*this text is surrounded by literal asterisks\*
