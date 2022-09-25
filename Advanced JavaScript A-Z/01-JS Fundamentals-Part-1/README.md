@@ -3,24 +3,24 @@
 
 
 
-<h3 align="center">VS code shortcuts working on JS </h3>
+<h3 align="center">👉VS code environment shortcuts working with JS </h3>
 
 
 
 ```html
-CTLR + D 
+🟨CTLR + D 
 Select a text area and use this short cut to select all similar texts and update or delete 
 
-Alt + arrow up or down 
+🟨Alt + arrow up or down 
 move text/code line up or down 
 
-alt + shift + a
+🟨Alt + shift + a
 comment out multi line 
 
-alt + shift + arrow down
+🟨Alt + shift + arrow down
 copy line of code down 
 
-CTRL + /  single line commnet
+🟨CTRL + /  single line commnet
 ```
 
 
