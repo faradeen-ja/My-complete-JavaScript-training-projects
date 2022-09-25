@@ -160,5 +160,21 @@ let x2, y;
 x2 = y = 26-10-4; // executes code from right to left 
 console.log(x2, y)
 
-const averageAge = (myAge + ageSarah) / 2 // just math in () or out of it in school this method will calculate from left to right it adds and then devides 
+const averageAge = (myAge + ageSarah) / 2 // just math in () or out of it in school this method will calculate based on precedence from left to right it adds and then devides 
 console.log(myAge, ageSarah, averageAge);
+
+
+
+////////////////////////////////
+//Strrrings and Template strings 
+
+//old ways
+const car = 'bmw'
+const tires = 4
+const color = 'yellow'
+const year = 1994
+
+
+
+
+
