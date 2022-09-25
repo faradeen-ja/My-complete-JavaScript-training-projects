@@ -167,6 +167,7 @@ console.log(myAge, ageSarah, averageAge);
 
 ////////////////////////////////
 //Strrrings and Template strings 
+//or Template literal
 
 const car = 'bmw'
 const tires = 4
@@ -177,7 +178,9 @@ const year = 1994
 const dreamCar = 'This car is ' + car + ', a very fast car that has ' + tires + ' tires ' + 'color  is ' + color + ' it was built in year ' + year;
 console.log(dreamCar);
 
-
+//modern way using ES6 template strings / tempalte literals 
+const dreamCar2 = `This car is ${car}, a very fast car that has ${tires} tires, color is ${color}, it was built in year ${year}`
+console.log(dreamCar2);
 
 
 
