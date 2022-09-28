@@ -36,6 +36,8 @@ copy line of code down
 
 * Designed byBrendan Eich of Netscape initially; others have also contributed to the ECMAScript standard
 
+*Read more on [wiki](https://en.wikipedia.org/wiki/JavaScript)*
+
 --------
 ##### Working with variables in JavaScript
 ```JavaScript
