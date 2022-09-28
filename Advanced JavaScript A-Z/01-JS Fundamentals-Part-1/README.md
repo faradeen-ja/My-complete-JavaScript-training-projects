@@ -24,7 +24,9 @@ copy line of code down
 
 ******
 ### Table of content:
-##### [What is JavaScript?](#what-is-javascript)
+- [What is JavaScript?](#what-is-javascript) 
+- [Working with variables in JavaScript](#working-with-variables-in-javascript) 
+
 
 
 ##### What is JavaScript?
@@ -34,4 +36,25 @@ copy line of code down
 
 * Designed byBrendan Eich of Netscape initially; others have also contributed to the ECMAScript standard
 
+--------
+##### Working with variables in JavaScript
+```JavaScript
+let js = 'amazing';
+     
+      40 + 30 - 4;
+      console.log(40 + 30 - 4);
 
+      console.log('fara');
+
+      console.log(23);
+
+
+      let firstNameOne = "fara";
+      let first = 'fara'
+      let last = 'j'
+      
+      console.log(firstNameOne);
+      console.log(firstNameOne);
+      console.log(firstNameOne);
+      
+      
