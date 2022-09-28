@@ -1,8 +1,10 @@
+
 ![image](https://github.com/faradeen-ja/complete-JavaScript-lectures-logs/blob/5e2f36bb3dfce24a1038862c943874e5dc5238fe/assets/js-fundamental-1.png)
 
 
 
-<h3 align="center">👉VS code environment shortcuts working with JS </h3>
+<h3 align="center">👉VS code environment shortcuts working with JS </h3>  
+
 
 
 
@@ -19,7 +21,7 @@ comment out multi line
 🟨Alt + shift + arrow down
 copy line of code down 
 
-🟨CTRL + /  single line commnet
+🟨CTRL + /  single line comment
 ```
 
 ******
@@ -74,3 +76,43 @@ let js = 'amazing';
     cosole.log(dogsAges[0]) // 2
     
  ```
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ [Back to top](#table-of-content) 
