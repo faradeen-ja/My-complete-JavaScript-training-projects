@@ -41,7 +41,7 @@ copy line of code down
 --------
 ##### Working with variables in JavaScript
 
-A variable is a “named storage” for data. We can use variables to store goodies, visitors, and other data. To create a variable in JavaScript, use the var, let and const keywords to declare a variable.  A variable can only contain one value at a time, which can be of any data type. Meaning either a string, number, boolean, array, object, function or null or undefined.
+A variable is a “named storage” for data. We can use variables to store goodies, visitors, and other data. To create a variable in JavaScript, use the var, let and const keywords to declare a variable.  A variable can only contain one value at a time, which can be of any data type. Meaning either a string, number, boolean, array, object, function or null or undefined.   *like e.g. code code below*  **[Source](javascript.info/variables)**
 ```JavaScript
 let js = 'amazing';
      
