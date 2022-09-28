@@ -28,6 +28,7 @@ copy line of code down
 ### Table of content:
 - [What is JavaScript?](#what-is-javascript) 
 - [Working with variables in JavaScript](#working-with-variables-in-javascript) 
+- [Data types](#data-types)
 
 
 
@@ -78,7 +79,17 @@ let js = 'amazing';
  ```
  
  
- 
+ ##### Data types
+  1. Objects
+  2. Primitives
+#### Primitives
+ - number floating point numbers
+ - strings like sentence word characters or texts 
+ - boolean are used to make decesions  true or false 
+ - undefined value in a variable is not defined, set or stored, empty value or parameters 
+ - null also means empty values
+ - symbols #$@% 
+ - bigInt Bigintergers long mathimatics numbers
  
  
  
