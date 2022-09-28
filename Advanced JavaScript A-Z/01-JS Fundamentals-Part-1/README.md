@@ -92,8 +92,23 @@ let js = 'amazing';
  - bigInt Bigintergers long mathimatics numbers
  
  
+ ```JavaScript
  
- 
+ let javaScriptisFun = true
+console.log(javaScriptisFun)
+
+let emptyValue = // variable with no value  / empty variable
+//typeOff
+console.log("ture is", typeof true); // true is boolean 
+console.log(typeof javaScriptisFun) // boolean
+console.log(typeof 123); //number
+console.log(typeof "I am a developer") //string
+console.log(typeof emptyValue) // undefined 
+console.log(typeof abc123) // undefined 
+console.log(typeof 983493n) // bigInt int = integer
+var cars = ["Saab", "Volvo", "BMW"]; // array
+var x = {firstName:"John", lastName:"Doe"}; // object
+```
  
  
  
