@@ -118,11 +118,19 @@ var x = {firstName:"John", lastName:"Doe"}; // object
 `var` declarations are globally scoped or function scoped while let and `const` are block scoped. `var` variables can be updated and re-declared within its scope; `let` variables can be updated but not re-declared; `const` variables can neither be updated nor re-declared. They are all hoisted to the top of their scope.
 [Source](https://www.freecodecamp.org/news/var-let-and-const-whats-the-difference)
 
-*`var` declaration is an old keyword, avoid using var in your codebase as it will result in bugs and errors, for instance if you decide to create variables and if by mistake you use the same name to store differrent data later JavaScript will understand and execute the last variable you created or updated.*
+*`var` declaration is an old keyword, avoid using `var` in your codebase as it will result in bugs and errors, for instance if you decide to create variables and if by mistake you use the same name to store differrent data later JavaScript will understand and execute the last variable you created or updated.*
  
- 
- 
- 
+e.g.
+```JavaScript
+let age =  22;
+age = 80 // let variable can be updated but not re-declared --> let age = 80 will error 
+
+const carModel = "BMW";
+console.log(carModel); //logs BMS
+
+//Now if we try to re-declare variable `carModel` or update it, it wont work. 
+const carModel = "BMW" // it will log this error --> Uncaught SyntaxErr: Indentifier 'carModel' has already been declared
+
  
  
  
