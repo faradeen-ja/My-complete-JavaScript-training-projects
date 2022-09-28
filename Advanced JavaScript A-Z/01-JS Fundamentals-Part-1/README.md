@@ -60,5 +60,15 @@ let js = 'amazing';
       console.log(firstNameOne);
       console.log(firstNameOne);
       console.log(firstNameOne);
-      
-      
+ ```
+ 
+ e.g. 2
+ ```JavaScript
+ let pets = "cats, dogs";
+let catName = "sally";
+let dogsAges = [2, 5];
+
+// logging results into console
+console.log(pets) // cats, dogs
+console.log(catName) // sally
+cosole.log(dogsAges[0]) // 2
