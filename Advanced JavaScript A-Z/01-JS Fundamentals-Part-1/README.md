@@ -64,11 +64,13 @@ let js = 'amazing';
  
  e.g. 2
  ```JavaScript
- let pets = "cats, dogs";
-let catName = "sally";
-let dogsAges = [2, 5];
+    let pets = "cats, dogs"; // pets stores datas cats, dogs. 
+    let catName = "sally";
+    let dogsAges = [2, 5];
 
-// logging results into console
-console.log(pets) // cats, dogs
-console.log(catName) // sally
-cosole.log(dogsAges[0]) // 2
+    // logging results into console
+    console.log(pets) // cats, dogs
+    console.log(catName) // sally
+    cosole.log(dogsAges[0]) // 2
+    
+ ```
