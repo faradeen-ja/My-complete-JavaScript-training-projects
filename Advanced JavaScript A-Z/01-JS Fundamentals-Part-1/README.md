@@ -131,12 +131,26 @@ console.log(carModel); //logs BMS
 //Now if we try to re-declare variable `carModel` or update it, it wont work. 
 const carModel = "BMW" // it will log this error --> Uncaught SyntaxErr: Indentifier 'carModel' has already been declared
 
+//or if we try change or update it's value
+const carModel = "Ferrari"
+console.log(carModel): it will log this error --> Uncaught SyntaxErr: Indentifier 'carModel' has already been declared
+
+
+//var
+//never use var keyword for it's simple to be re-declared and the value to be updated that can cause later problems in our codebase
+var job = "coder"; //first varialbe declared and first value added to it
+var job = "notCoder"; // value updated 
+var job = "coder"; // here we can re-declare it again eventhough it's already declared. funny?
+job = "noder"; //variable value got updated here js runs it no problem
+
+// if we console log job varialbe now it wil... output noder because it reassigned or changed the value to new value "noder
+console.log(job)
  
  
  
  
  
- 
+ ```
  
  
  
