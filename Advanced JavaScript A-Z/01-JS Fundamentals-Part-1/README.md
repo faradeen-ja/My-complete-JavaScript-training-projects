@@ -179,7 +179,10 @@ const lastName = 'j';
 console.log(firstName + ' ' + lastName); // logs fara j  + ' ' + puts space 
 
 
-
+/////////////////////////////////
+//Comparison operators >, <, >=, <= 
+console.log(myAge > ageSarah); // more than older than
+console.log(ageSarah  >= 18); // logs if ture of false
 
 
 
