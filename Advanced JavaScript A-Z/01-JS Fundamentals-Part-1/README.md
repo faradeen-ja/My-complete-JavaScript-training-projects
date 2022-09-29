@@ -155,6 +155,15 @@ always declare variables meaning always store name and value by declraing it -->
  
  
  ##### Assignment Operators
+ ```JavaScript
+ let x = 10 + 6; //x will be assigned the value of 16
+ x += 10; //x = x + 10 = 26
+ x *= 4; //x = x * 4 = 104
+ x++; // incrementing x = x + x = ++
+ x--; // decrementing x - x = x-- 
+ 
+ 
+ ```
  
  
  
