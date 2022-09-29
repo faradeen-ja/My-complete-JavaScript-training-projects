@@ -159,9 +159,31 @@ always declare variables meaning always store name and value by declraing it -->
  let x = 10 + 6; //x will be assigned the value of 16
  x += 10; //x = x + 10 = 26
  x *= 4; //x = x * 4 = 104
- x++; // incrementing x = x + x = ++
- x--; // decrementing x - x = x-- 
+ x++; // incrementing by 1 x = x + x = ++
+ x--; // decrementing by -1 x - x = x-- 
  
+ ////////////////////////////////////
+//Transform or combine values with + 
+// Basic Operators
+
+
+const now = 2022; 
+const myAge =  now - 1991;
+const ageSarah = now - 1994; 
+
+console.log('You are',ageSarah, myAge); // logss You are 31
+console.log(ageSarah *3, myAge * 3 / 10, 2**3);
+
+const firstName = 'fara';
+const lastName = 'j';
+console.log(firstName + ' ' + lastName); // logs fara j  + ' ' + puts space 
+
+
+
+
+
+
+
  
  ```
  
