@@ -147,11 +147,9 @@ job = "noder"; //variable value got updated here js runs it no problem
 console.log(job)
  
  
- 
- 
- 
  ```
- 
+Variables rules  
+always declare variables meaning always store name and value by declraing it --> ✅`let job = "coder"`  ❌`job = "coder";` `let`, `const` or `var`  is the reserved keywords in js used to declare our variables 
  
  
  
