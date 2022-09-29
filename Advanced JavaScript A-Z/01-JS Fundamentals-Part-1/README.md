@@ -184,6 +184,15 @@ console.log(firstName + ' ' + lastName); // logs fara j  + ' ' + puts space
 console.log(myAge > ageSarah); // more than older than
 console.log(ageSarah  >= 18); // logs if ture of false
 
+////////////////////////////////
+//Operator precedences 
+let x2, y;
+x2 = y = 26-10-4; // executes code from right to left 
+console.log(x2, y)
+
+const averageAge = (myAge + ageSarah) / 2 // just math in () or out of it in school this method will calculate based on precedence from left to right it adds and then devides 
+console.log(myAge, ageSarah, averageAge);
+
 
 
 
