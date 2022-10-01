@@ -30,8 +30,8 @@ copy line of code down
 - [Working with variables in JavaScript](#working-with-variables-in-javascript) 
 - [Data types](#data-types)
 - [var let and const keywords](#var-let-and-const-keywords)
-- [Assignment Operators](assignment-operators)
-- [Template Latirals](template-latirals)
+- [Assignment Operators](#assignment-operators)
+- [Template Latirals](#template-latirals)
 
 
 
