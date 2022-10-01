@@ -199,7 +199,7 @@ console.log(myAge, ageSarah, averageAge);
  ```
  
  
-#### Template latirals (Template Strings)
+#### Template latirals
 
 ```JavaScript
 ////////////////////////////////
