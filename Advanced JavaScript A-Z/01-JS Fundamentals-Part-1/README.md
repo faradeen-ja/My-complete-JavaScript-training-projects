@@ -31,6 +31,7 @@ copy line of code down
 - [Data types](#data-types)
 - [var let and const keywords](#var-let-and-const-keywords)
 - [Assignment Operators](assignment-operators)
+- [Comparison Operators](comparison-operators)
 
 
 
@@ -194,12 +195,12 @@ const averageAge = (myAge + ageSarah) / 2 // just math in () or out of it in sch
 console.log(myAge, ageSarah, averageAge);
 
 
-
-
  
  ```
  
  
+#### Comparison operators
+
  
  
  
