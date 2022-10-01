@@ -203,8 +203,36 @@ console.log(myAge, ageSarah, averageAge);
 
 ```JavaScript
 ////////////////////////////////
-//Strrrings and Template strings 
+//Template strings 
 //or Template literal
+
+const car = 'bmw'
+const tires = 4
+const color = 'yellow'
+const year = 1994
+
+❌
+//old ways getting varibles values as string output
+const dreamCar = 'This car is ' + car + ', a very fast car that has ' + tires + ' tires ' + 'color  is ' + color + ' it was built in year ' + year;
+console.log(dreamCar);
+
+✅
+//modern way using ES6 template strings / tempalte literals 
+const dreamCar2 = `This car is ${car}, a very fast car that has ${tires} tires, color is ${color}, it was built in year ${year}`
+console.log(dreamCar2);
+
+//using backticks ` ` instead of qoutes '' "" 
+console.log(` this is just another string with template literals ')
+❌
+//old ways using a new line with back slash 
+console.log('string with an old way js\n\
+miltiple \n\
+lines')
+✅
+//new way using back ticks to make multi line strings. es6 
+console.log(`string with new way
+multiple
+lines`);
 
 
 
