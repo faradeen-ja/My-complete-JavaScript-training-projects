@@ -31,7 +31,7 @@ copy line of code down
 - [Data types](#data-types)
 - [var let and const keywords](#var-let-and-const-keywords)
 - [Assignment Operators](assignment-operators)
-- [Comparison Operators](comparison-operators)
+- [Template Latirals](template-latirals)
 
 
 
