@@ -199,13 +199,16 @@ console.log(myAge, ageSarah, averageAge);
  ```
  
  
-#### Comparison operators
+#### Template latirals (Template Strings)
+
 ```JavaScript
- /////////////////////////////////
-//Comparison operators >, <, >=, <= 
-console.log(myAge > ageSarah); // more than older than
-console.log(ageSarah  >= 18); // logs if ture of false
- ```
+////////////////////////////////
+//Strrrings and Template strings 
+//or Template literal
+
+
+
+```
 
  
  
