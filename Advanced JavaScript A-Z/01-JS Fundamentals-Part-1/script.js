@@ -198,6 +198,20 @@ lines`);
 
 
 
+///==========taking decisions / if else===========///
+
+const userAge = 15;
+
+if(userAge >= 18){
+    console.log(`you can get a DL now`)
+} else{
+    const yearsLeft = userAge - 18; // 18 - userAge shows no minus
+
+    console.log(`you are too young. wait another ${yearsLeft} years.`)
+
+ }
+
+
 
 
 
