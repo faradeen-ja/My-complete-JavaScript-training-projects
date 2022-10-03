@@ -228,5 +228,23 @@ const yourBirth = 1991;
 
 
 
+//======Type conversion Type coercion=====//
+
+ // CONVERSION
+ const inputYear = '1991';
+ console.log(Number(inputYear)) //num func convert string to num
+ console.log(inputYear + 18);  // outputs a string 199118
+
+
+ ///NaN = not a number 
+ console.log(String(23), 23);
+
+
+ // COERCION
+ console.log('I am ' + 98 + 'years old')
+ 
+ console.log('23' - '10' - 3) // + operator concatinates . coerce string to num here
+console.log('23' * '11') // here js calc the strings as num
+
 
 
