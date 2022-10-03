@@ -212,6 +212,21 @@ if(userAge >= 18){
  }
 
 
+const yourBirth = 1991;
+
+ let century; // this var is outside of the block if inside it wont be invoked or called
+
+ if (yourBirth <= 2000){ // we declare a condition 
+    century = 20;
+
+ }else{
+    century = 21;
+
+ }
+
+ console.log(century)
+
+
 
 
 
