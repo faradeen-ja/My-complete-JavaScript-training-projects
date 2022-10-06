@@ -336,4 +336,10 @@ console.log(("Yes 'a' is between 10 and 20.");
  
  ```
  
+ #### Skipping the curly braces 
+ If there is only 1 line of code in the block of the if statement then you may emit the curly braces and can write the code within the same line.
+
+```JavaScript
+if (true) console.log("Condition is true");
+ ```
  [Back to top](#table-of-content) 
