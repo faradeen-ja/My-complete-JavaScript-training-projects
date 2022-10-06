@@ -296,12 +296,24 @@ console.log("Statement is true, x = 10");
 ```
  
  
+ #### Using boolean in condition 
+It is not necessary to give some statement as a condition, you can directly specify true or false in the place of condition. If it is true then code will always   execute.
+ 
+ ```JavaScript
+ if (true) {
+ console.log("Condition is true, Block executed!");
+ // Condition is true. Block executed!
+ ```
  
  
- 
- 
- 
- 
+ #### Multiple conditions 
+The if statement accepts multiple conditions, which means you can specify more than 1 condition separated by logical operators.
+The following example checks if the number is between 10 and 20 using multiple conditions.
+```JavaScript
+let a = 15;
+if (a > 10 && a < 20) {
+console.log(("Yes 'a' is between 10 and 20.");
+// Yes 'a' is between 10 and 20. 
  
  
  
