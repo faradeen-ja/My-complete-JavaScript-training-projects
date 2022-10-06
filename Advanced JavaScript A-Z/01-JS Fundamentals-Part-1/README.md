@@ -302,6 +302,7 @@ It is not necessary to give some statement as a condition, you can directly spec
  ```JavaScript
  if (true) {
  console.log("Condition is true, Block executed!");
+ }
  // Condition is true. Block executed!
  ```
  
@@ -313,6 +314,7 @@ The following example checks if the number is between 10 and 20 using multiple c
 let a = 15;
 if (a > 10 && a < 20) {
 console.log(("Yes 'a' is between 10 and 20.");
+}
 // Yes 'a' is between 10 and 20. 
  ```
  
