@@ -423,8 +423,35 @@ else {
 }
 // True, a = 15
 ```
+## Example to check what day is today
+```JavaScript
+let today = new Date().getDay();
+
+if (today == 0) {
+  console.log("Sunday!");
+}
+else if (today == 1) {
+  console.log("Monday!");
+}
+else if (today == 2) {
+  console.log("Tuesday!");
+}
+else if (today == 3) {
+  console.log("Wednesday!");
+}
+else if (today == 4) {
+  console.log("Thursday!");
+}
+else if (today == 5) {
+  console.log("Friday!");
+}
+else {
+  console.log("Saturday!");
+}
+
+// logs today 
  
- 
+```
  
  
  
