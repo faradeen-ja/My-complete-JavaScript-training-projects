@@ -342,4 +342,34 @@ console.log(("Yes 'a' is between 10 and 20.");
 ```JavaScript
 if (true) console.log("Condition is true");
  ```
+ 
+ #### else statement JavaScript
+ 
+The else statement is executes a code block when the condition in the if statement is false.
+else statement can't be used alone it must be used after the if statement.
+Here is a flow diagram for else statements working. 
+
+![tuturialtonight](https://www.tutorialstonight.com/assets/js/javascript-if-else-statement-flow-diagram.webp)
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
  [Back to top](#table-of-content) 
