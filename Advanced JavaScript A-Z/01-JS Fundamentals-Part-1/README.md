@@ -489,8 +489,35 @@ switch (today) {
  
  
  
+#### Nested if statements 
+The conditional statements ca be nested to each other. This means you can write an if statement within another if statement. 
+here is an example: 
+```JavaScript
+let cmployee = {
+name: "Juli", 
+age: 32,
+xp: 7
+}
+
+if(employee.age > 30) {
+if(employee.xp > 5) }
+consol.log("Eligible to work here!");
+} 
+else {
+console.log("Not eligible to work here!");
+ }
+}
+else {
+if (employee.xp > 3 ){
+console.log(("Eligible to work here");
+}
+else {
+console.log("Not eligible to work here!);
+ }
+}
+
  
- 
+ ```
  
  
  
