@@ -255,6 +255,24 @@ lines`);
  
  
  
+ ##### Condtional Statments or if else
+ 
+ While writing code there many situations whe you need to make a decision what to do if a certian task happens. 
+ 
+ For example, if today is sunday then log don't go to work, if feeling hungry then eat something, etc. 
+ 
+ A conditional statement is an action that is used to make a decision. When the condition is given true then the code is executed.  
+ 
+ Check the followings: 
+ 
+ 1. if statement  -> is used to execute a block of code only when a fiven condition is true. 
+ 2. else statement -> is used to execute a block of code only when a given condition is false.
+ 3. else if statement -> provides a new condition to be checked if the previous condition was false to execute a new block of code. 
+ 4. switch statement -> is a shoter and cleaner way to use when there are many conditions to be checked and it works the same as an if-else statement. 
+ 
+ 
+ 
+ 
  
  
  
