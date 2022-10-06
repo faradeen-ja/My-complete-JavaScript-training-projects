@@ -258,19 +258,41 @@ lines`);
  ##### Condtional Statments or if else
  
  While writing code there many situations whe you need to make a decision what to do if a certian task happens. 
- 
  For example, if today is sunday then log don't go to work, if feeling hungry then eat something, etc. 
- 
  A conditional statement is an action that is used to make a decision. When the condition is given true then the code is executed.  
- 
+
  Check the followings: 
  
- 1. if statement  -> is used to execute a block of code only when a fiven condition is true. 
- 2. else statement -> is used to execute a block of code only when a given condition is false.
+ 1. [if statement](#if-statement)  -> is used to execute a block of code only when a fiven condition is true. 
+ 2. [else statement](#if-statement-syntax) -> is used to execute a block of code only when a given condition is false.
  3. else if statement -> provides a new condition to be checked if the previous condition was false to execute a new block of code. 
  4. switch statement -> is a shoter and cleaner way to use when there are many conditions to be checked and it works the same as an if-else statement. 
  
  
+ #### if statement
+ `if statement` in the most basic conditional statement in JS. it executes a block of code only when the given condition is `true` . 
+ if the condition is `false` then execution leaves the block and jumps to the next section.  Here is flow diagram from.
+ 
+ ![totorialstonight](https://www.tutorialstonight.com/assets/js/javascript-if-statement-flowchart.webp)
+ 
+ 
+ 
+ #### if statement syntax
+ 
+ ```JavaScript
+ if (condition) {
+  //code
+}
+```
+
+#### Example
+```JavaScript
+let x = 10;
+if (x == 10) {
+console.log("Statement is true, x = 10");
+}
+// logs Statment is true, x = 10 
+```
  
  
  
