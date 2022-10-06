@@ -385,7 +385,7 @@ console.log("a = 15");
 // a = 15
 ```
  
- #### else if statemen
+ #### else if statements
 The else if statement is used to execute a block of code when the condition in if statement is false.
 The else if statement is similar to the else statement but it is used to check multiple conditions.
 It is always used after any if statement.
