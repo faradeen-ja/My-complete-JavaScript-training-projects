@@ -409,6 +409,20 @@ else {
 }
 ```
 
+#### Example 
+```JavaScript
+var a = 15;
+if (a == 10) {
+  console.log("True, a = 10");
+}
+else if (a == 15) {
+  console.log("True, a = 15");
+}
+else {
+  console.log("False, a is not equal to 10 or 15");
+}
+// True, a = 15
+```
  
  
  
