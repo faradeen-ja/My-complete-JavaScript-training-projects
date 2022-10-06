@@ -265,7 +265,7 @@ lines`);
  Check the followings: 
  
  1. [if statement](#if-statement)  -> is used to execute a block of code only when a fiven condition is true. 
- 2. [else statement](#if-statement-syntax) -> is used to execute a block of code only when a given condition is false.
+ 2. [else statement](#else-statement) -> is used to execute a block of code only when a given condition is false.
  3. [else if statement](#else-if-statements) -> provides a new condition to be checked if the previous condition was false to execute a new block of code. 
  4. [switch statement](#switch-statement) -> is a shoter and cleaner way to use when there are many conditions to be checked and it works the same as an if-else statement. 
  
@@ -343,7 +343,7 @@ console.log(("Yes 'a' is between 10 and 20.");
 if (true) console.log("Condition is true");
  ```
  
- #### else statement JavaScript
+ #### else statement 
  
 The else statement is executes a code block when the condition in the if statement is false.
 else statement can't be used alone it must be used after the if statement.
