@@ -352,8 +352,27 @@ Here is a flow diagram for else statements working.
 ![tuturialtonight](https://www.tutorialstonight.com/assets/js/javascript-if-else-statement-flow-diagram.webp)
  
  
- 
- 
+#### else statement syntax
+```JavaScript
+if (condition) {
+// execute this block if the condition is true
+} else {
+// execute this block of code if the condition is false
+}
+
+```
+#### Example 
+```JavaScript
+var a = 15;
+if (a == 10) {
+  console.log("True, a = 10");
+}
+else {
+  console.log("False, a is not equal to 10");
+}
+// False, a is not equal to 10
+
+```
  
  
  
