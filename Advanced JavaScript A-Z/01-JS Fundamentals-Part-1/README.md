@@ -393,7 +393,22 @@ The if-else statement is used to execute a block of code among 2 alternatives wh
 
 tutotrialstonight diagram ![external source](https://www.tutorialstonight.com/assets/js/javascript-else-if-statement-flow-diagram.webp)
 
- 
+#### else if syntax
+```JavaScript
+if (condition) {
+  // executes this block if the condition is true
+}
+else if (condition) {
+  // executes this block if the condition is false
+}
+
+... (more else if blocks)
+
+else {
+  // executes this block if the condition is false
+}
+```
+
  
  
  
