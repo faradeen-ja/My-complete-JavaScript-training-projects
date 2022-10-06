@@ -423,7 +423,7 @@ else {
 }
 // True, a = 15
 ```
-## Example to check what day is today
+#### Example to check what day is today
 ```JavaScript
 let today = new Date().getDay();
 
@@ -454,8 +454,38 @@ else {
 ```
  
  
- 
- 
+ #### Switch Statement
+The switch statement is used to execute a block of code based on a value.
+The switch statement is similar to the if statement but it is used to check multiple conditions.
+switch statement is a collection of many conditions in an ordered manner that work exactly like if statement.
+
+Let's see how you will write the above day of the week example using the `switch statement.`
+```JavaScript
+let today = new Date().getDay();
+switch (today) {
+  case 0:
+    console.log("Sunday!");
+    break;
+  case 1:
+    console.log("Monday!");
+    break;
+  case 2:
+    console.log("Tuesday!");
+    break;
+  case 3:
+    console.log("Wednesday!");
+    break;
+  case 4:
+    console.log("Thursday!");
+    break;
+  case 5:
+    console.log("Friday!");
+    break;
+  case 6:
+    console.log("Saturday!");
+    break;
+}
+```
  
  
  
