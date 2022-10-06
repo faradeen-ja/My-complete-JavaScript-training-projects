@@ -163,6 +163,10 @@ Always declare variables meaning always store name and value by declraing it -->
  The assignment operators  must be a variable white the right operand may b ea variable, number, boolean, string, expression, object or combination of any other. 
  One of the most basi assignment operators is = equal , which is used to directily assign a value. 
  
+ From [External Source](https://www.tutorialstonight.com/js/javascript-assignment-operators) Check for more. 
+ 
+ Also check this source for [JavaScript Arithmetic Operators](https://www.tutorialstonight.com/js/js-arithmetic)
+ 
  
  ```JavaScript
  let x = 10 + 6; //x will be assigned the value of 16
@@ -208,6 +212,8 @@ console.log(myAge, ageSarah, averageAge);
  
  
 #### Template latirals
+
+Template literals are literals delimited with backtick (`) characters, allowing for multi-line strings, string interpolation with embedded expressions, and special constructs called tagged templates.  Read more on [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals#syntax)
 
 ```JavaScript
 ////////////////////////////////
