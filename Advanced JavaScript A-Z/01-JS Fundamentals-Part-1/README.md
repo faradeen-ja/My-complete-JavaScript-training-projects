@@ -32,6 +32,7 @@ copy line of code down
 - [var let and const keywords](#var-let-and-const-keywords)
 - [Assignment Operators](#assignment-operators)
 - [Template Latirals](#template-latirals)
+- [Conditional Statements or if else](#conditional-statements-or-if-else)
 
 
 
@@ -255,7 +256,7 @@ lines`);
  
  
  
- ##### Condtional Statments or if else
+ #### Conditional Statements or if else
  
  While writing code there many situations whe you need to make a decision what to do if a certian task happens. 
  For example, if today is sunday then log don't go to work, if feeling hungry then eat something, etc. 
@@ -265,8 +266,8 @@ lines`);
  
  1. [if statement](#if-statement)  -> is used to execute a block of code only when a fiven condition is true. 
  2. [else statement](#if-statement-syntax) -> is used to execute a block of code only when a given condition is false.
- 3. else if statement -> provides a new condition to be checked if the previous condition was false to execute a new block of code. 
- 4. switch statement -> is a shoter and cleaner way to use when there are many conditions to be checked and it works the same as an if-else statement. 
+ 3. [else if statement](#else-if-statements) -> provides a new condition to be checked if the previous condition was false to execute a new block of code. 
+ 4. [switch statement](#switch-statement) -> is a shoter and cleaner way to use when there are many conditions to be checked and it works the same as an if-else statement. 
  
  
  #### if statement
