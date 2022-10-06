@@ -381,9 +381,18 @@ console.log("True, a = 10 or a > 20");
 }
 else{
 console.log("a = 15");
+}
 // a = 15
 ```
  
+ #### else if statemen
+The else if statement is used to execute a block of code when the condition in if statement is false.
+The else if statement is similar to the else statement but it is used to check multiple conditions.
+It is always used after any if statement.
+The if-else statement is used to execute a block of code among 2 alternatives while else if statement gives other alternatives to it.
+
+tutotrialstonight diagram ![external source](https://www.tutorialstonight.com/assets/js/javascript-else-if-statement-flow-diagram.webp)
+
  
  
  
