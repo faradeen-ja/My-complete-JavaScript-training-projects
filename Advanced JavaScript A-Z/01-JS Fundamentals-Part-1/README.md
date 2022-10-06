@@ -151,11 +151,19 @@ console.log(job)
  
  ```
 Variables rules  
-always declare variables meaning always store name and value by declraing it --> ✅`let job = "coder"`  ❌`job = "coder";` `let`, `const` or `var`  is the reserved keywords in js used to declare our variables 
+Always declare variables meaning always store name and value by declraing it --> ✅`let job = "coder"`  ❌`job = "coder";` `let`, `const` or `var`  is the reserved keywords in js used to declare our variables 
  
  
+ ***************
  
  ##### Assignment Operators
+ In JavaScript there are 16 different addignemnt operators that are used to assing value to the variable. it shothand for other operators which is recommended to use. 
+ The assignment operator are used to assign value based on the right oprand to its lef operand. 
+ 
+ The assignment operators  must be a variable white the right operand may b ea variable, number, boolean, string, expression, object or combination of any other. 
+ One of the most basi assignment operators is = equal , which is used to directily assign a value. 
+ 
+ 
  ```JavaScript
  let x = 10 + 6; //x will be assigned the value of 16
  x += 10; //x = x + 10 = 26
