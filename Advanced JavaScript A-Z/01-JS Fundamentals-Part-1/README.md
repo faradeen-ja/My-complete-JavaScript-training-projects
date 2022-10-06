@@ -373,6 +373,16 @@ else {
 // False, a is not equal to 10
 
 ```
+#### Example 2
+```JavaScript
+let a = 15;
+if (a == 10 || a > 20) {
+console.log("True, a = 10 or a > 20");
+}
+else{
+console.log("a = 15");
+// a = 15
+```
  
  
  
