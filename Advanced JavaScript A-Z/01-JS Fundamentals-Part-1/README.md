@@ -28,11 +28,11 @@ copy line of code down
 ### Table of content:
 - [❓What is JavaScript?](#what-is-javascript) 
 - [🔗Working with variables in JavaScript](#working-with-variables-in-javascript) 
-- [Data types](#data-types)
-- [var let and const keywords](#var-let-and-const-keywords)
-- [Assignment Operators](#assignment-operators)
-- [Template Latirals](#template-latirals)
-- [Conditional Statements or if else](#conditional-statements-or-if-else)
+- [🔗Data types](#data-types)
+- [🔗var let and const keywords](#var-let-and-const-keywords)
+- [🔗Assignment Operators](#assignment-operators)
+- [🔗Template Latirals](#template-latirals)
+- [🔗Conditional Statements or if else](#conditional-statements-or-if-else)
 
 
 
