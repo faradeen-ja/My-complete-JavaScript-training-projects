@@ -26,7 +26,7 @@ copy line of code down
 
 ******
 ### Table of content:
-- [What is JavaScript?](#what-is-javascript) 
+- [❓What is JavaScript?](#what-is-javascript) 
 - [Working with variables in JavaScript](#working-with-variables-in-javascript) 
 - [Data types](#data-types)
 - [var let and const keywords](#var-let-and-const-keywords)
