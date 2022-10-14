@@ -254,6 +254,22 @@ const yourBirth = 1991;
     console.log("you should not spend it")
  }
  
+////////////////////////////////
+//equality operands operators 
+const ageOperators =  18
+if(ageOperators === 18);  /// if exactly true (strict equality)
+console.log('you just turned wild!')
+
+// double == is loose
+let books = '111';
+let mathBook = 111;
+
+
+if(books == mathBook){
+    console.log("maybe true")
+
+
+}
 
 
 
