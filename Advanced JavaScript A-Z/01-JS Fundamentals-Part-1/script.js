@@ -244,7 +244,16 @@ const yourBirth = 1991;
  console.log('I am ' + 98 + 'years old')
  
  console.log('23' - '10' - 3) // + operator concatinates . coerce string to num here
-console.log('23' * '11') // here js calc the strings as num
+ console.log('23' * '11') // here js calc the strings as num
+ 
+ // and
+ const money = 10;
+ if(money <= 10){
+    console.log("budget low")
+ } else{
+    console.log("you should not spend it")
+ }
+ 
 
 
 
