@@ -272,4 +272,10 @@ if(books == mathBook){
 }
 
 
-
+//////////////////////////////////
+//logics operrands
+const hasDriverLicense = true; // valiable A
+const hadGoodEyes = true;// valiable B  if change to false both will be false
+console.log(hasDriverLicense && hadGoodEyes); // and operand //true because one condition is trus
+console.log(hasDriverLicense || hadGoodEyes); // or operand //true because both conditions are ture
+console.log(!hasDriverLicense); // not // don't have a driver license /// false because it has it 
