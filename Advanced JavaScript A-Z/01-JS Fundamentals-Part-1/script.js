@@ -279,3 +279,20 @@ const hadGoodEyes = true;// valiable B  if change to false both will be false
 console.log(hasDriverLicense && hadGoodEyes); // and operand //true because one condition is trus
 console.log(hasDriverLicense || hadGoodEyes); // or operand //true because both conditions are ture
 console.log(!hasDriverLicense); // not // don't have a driver license /// false because it has it 
+
+
+
+
+
+
+//////////////////////////////////
+//the switch statement switch is like if else
+
+  const selectDay = 'on mondays'
+
+  switch(selectDay) {
+    case 'on mondays': // select a day
+    console.log("I am coding...!");
+        //break; //if remove break it goes to execute next switch
+
+
