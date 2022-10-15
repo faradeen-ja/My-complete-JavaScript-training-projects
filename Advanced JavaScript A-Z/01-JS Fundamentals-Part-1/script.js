@@ -294,5 +294,12 @@ console.log(!hasDriverLicense); // not // don't have a driver license /// false 
     case 'on mondays': // select a day
     console.log("I am coding...!");
         //break; //if remove break it goes to execute next switch
+        case 'on tuesdays':
+        console.log("I go to gym")
+        break;
+
+    case 'on wednesdays':
+        console.log('Practical coding!');
+        break;
 
 
