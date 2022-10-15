@@ -301,5 +301,8 @@ console.log(!hasDriverLicense); // not // don't have a driver license /// false 
     case 'on wednesdays':
         console.log('Practical coding!');
         break;
+    case 'on thursdays':
+        console.log('take out my wife and kid out!');
+        break;
 
 
