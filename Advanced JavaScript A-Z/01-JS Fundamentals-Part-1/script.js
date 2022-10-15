@@ -317,6 +317,35 @@ console.log(!hasDriverLicense); // not // don't have a driver license /// false 
         console.log("no plans today")
 
   }
+  
+  
+  // if else is messsy cluttered depending on the usecase for instance if we are dealing with many conditions
+  if (selectDay === 'on mondays'){
+    console.log("I am coding...!");
+
+
+  } else if(selectDay === 'on tuesdays'){
+    console.log("I go to gym")
+
+
+  } else if(selectDay === 'on wednesdays'){
+    console.log('Practical coding!');
+
+
+  } else if(selectDay === 'on thursdays'){
+    console.log('take out my wife and kid out!');
+
+
+  } else if(selectDay === 'on fridays'){
+    console.log('play soccer!');
+
+
+  } else if(selectDay ==='on saturday' || selectDay === 'on sundays' ){
+    console.log("family time!");
+  } else{
+    console.log('no plans today!!!!!!')
+  }
+
 
 
 
