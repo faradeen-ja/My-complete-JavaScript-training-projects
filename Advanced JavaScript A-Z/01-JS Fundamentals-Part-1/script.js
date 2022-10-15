@@ -304,5 +304,14 @@ console.log(!hasDriverLicense); // not // don't have a driver license /// false 
     case 'on thursdays':
         console.log('take out my wife and kid out!');
         break;
+        
+    case 'on fridays':
+        console.log('play soccer!');
+        break;
+    case 'on saturdays':
+    case  'on sundays':
+        console.log("family time!");
+        break;
+
 
 
