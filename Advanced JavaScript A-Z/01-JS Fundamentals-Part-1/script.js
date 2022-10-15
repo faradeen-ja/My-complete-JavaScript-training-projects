@@ -349,3 +349,15 @@ console.log(!hasDriverLicense); // not // don't have a driver license /// false 
 
 
 
+////////////////////////////////////////
+////statements and expressions 
+
+  if (23 > 10) {
+    const str = '23 is bigger' // statement
+  }
+
+// template literal express values 
+const who = 'faramarajarazara'
+  console.log(`I am ${2090 - 1991} years old ${who}`) // template lits use backticks ` `
+
+
