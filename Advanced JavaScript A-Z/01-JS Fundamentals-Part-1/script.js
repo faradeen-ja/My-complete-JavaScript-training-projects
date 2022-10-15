@@ -312,6 +312,11 @@ console.log(!hasDriverLicense); // not // don't have a driver license /// false 
     case  'on sundays':
         console.log("family time!");
         break;
+        
+           default:
+        console.log("no plans today")
+
+  }
 
 
 
