@@ -378,5 +378,12 @@ console.log('I would like a bottle of water please!')
 const drink = legarAge >= 18 ? 'soda' : 'water';
 console.log(drink)
 
+//If we use if else statement depending on the usecase as might need to, however it will be long
+let drink2;
+if(legalAge >= 18) {
+drink2 = 'soda';
+} else{
+drink2 = 'water';
+}
 
 
