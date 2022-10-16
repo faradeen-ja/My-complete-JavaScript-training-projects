@@ -212,7 +212,7 @@ if(userAge >= 18){
  }
 
 
-const yourBirth = 1991;
+ const yourBirth = 1991;
 
  let century; // this var is outside of the block if inside it wont be invoked or called
 
@@ -274,6 +274,7 @@ if(books == mathBook){
 
 //////////////////////////////////
 //logics operrands
+
 const hasDriverLicense = true; // valiable A
 const hadGoodEyes = true;// valiable B  if change to false both will be false
 console.log(hasDriverLicense && hadGoodEyes); // and operand //true because one condition is trus
@@ -319,6 +320,7 @@ console.log(!hasDriverLicense); // not // don't have a driver license /// false 
   }
   
   
+  
   // if else is messsy cluttered depending on the usecase for instance if we are dealing with many conditions
   if (selectDay === 'on mondays'){
     console.log("I am coding...!");
@@ -359,5 +361,22 @@ console.log(!hasDriverLicense); // not // don't have a driver license /// false 
 // template literal express values 
 const who = 'faramarajarazara'
   console.log(`I am ${2090 - 1991} years old ${who}`) // template lits use backticks ` `
+
+
+
+
+///////////////////////////////////////
+//Conditional operands or operators or ternary oprator 
+
+const legalAge = 10;
+
+legalAge >= 18 ?
+console.log('I can drink soda');
+console.log('I would like a bottle of water please!')
+
+//e.g. 2 
+const drink = legarAge >= 18 ? 'soda' : 'water';
+console.log(drink)
+
 
 
