@@ -182,7 +182,7 @@ console.log(dreamCar);
 const dreamCar2 = `This car is ${car}, a very fast car that has ${tires} tires, color is ${color}, it was built in year ${year}`
 console.log(dreamCar2);
 
-//using backticks ` ` instead of qoutes '' "" 
+//using backticks  instead of qoutes 
 console.log(` this is just another string with template literals ')
 
 //old ways using a new line with back slash 
