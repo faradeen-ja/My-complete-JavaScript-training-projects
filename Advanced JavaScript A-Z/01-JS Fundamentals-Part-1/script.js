@@ -386,4 +386,5 @@ drink2 = 'soda';
 drink2 = 'water';
 }
 
+console.log(drink2) 
 
