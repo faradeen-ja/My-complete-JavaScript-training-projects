@@ -53,6 +53,15 @@ console.log(age1); logs //logs age1 - 2090
 
 
 
+//2. Function expressions type
+// We can store a function into a variable, it's expressed into a variable 
+const calcAge2 = function(birthYear) {
+  return 2090 - birthYear;
+};
+
+const age2 = calcAge2(1991);
+console.log(age2);
+
 
 
 
