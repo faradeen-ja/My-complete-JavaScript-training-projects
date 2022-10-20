@@ -36,6 +36,8 @@ copy line of code down
 
 
 
+
+
 ##### ❓What is JavaScript?
 *JavaScript, often abbreviated to JS, is a programming language that is one of the core technologies of the World Wide Web, alongside HTML and CSS. As of 2022, 98% of websites use JavaScript on the client side for webpage behavior, often incorporating third-party libraries. All major web browsers have a dedicated JavaScript engine to execute the code on users' devices.*
 
@@ -490,7 +492,7 @@ switch (today) {
  
  
 #### Nested if statements 
-The conditional statements ca be nested to each other. This means you can write an if statement within another if statement. 
+The conditional statements can be nested to each other. This means you can write an if statement within another if statement. 
 here is an example: 
 ```JavaScript
 let cmployee = {
@@ -516,6 +518,43 @@ console.log("Not eligible to work here!);
  }
 }
 // Eligible!
+
+ 
+ ```
+ 
+ 
+ ```JavaScript
+ 
+ ///////////////////////////////////////
+//Conditional operands or operators or ternary oprator 
+
+const legalAge = 10;
+
+legalAge >= 18 ?
+console.log('I can drink soda');
+console.log('I would like a bottle of water please!')
+
+//e.g. 2 
+const drink = legalAge >= 18 ? 'soda' : 'water';
+console.log(drink)
+
+//If we use if else statement depending on the usecase as might need to, however it will be long
+let drink2;
+if(legalAge >= 18) {
+drink2 = 'soda';
+} else{
+drink2 = 'water';
+}
+
+console.log(drink2) 
+
+
+////////////////////////////////////
+a quick challenge on ternary operator and template litrals usecase
+
+const bill = 275;
+const tip = bill <= 300 && bill >= 50 ? bill * 0.15 : bill * 0.2;
+console.log(`the bill was ${bill}, the tip was ${tip}, and the total value is ${bill + tip}');
  
  ```
  
