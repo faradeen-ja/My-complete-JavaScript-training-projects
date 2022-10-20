@@ -62,6 +62,8 @@ const calcAge2 = function(birthYear) {
 const age2 = calcAge2(1991);
 console.log(age2);
 
+//same thing happened here except we expressed our function within a variable 
+
 
 
 
