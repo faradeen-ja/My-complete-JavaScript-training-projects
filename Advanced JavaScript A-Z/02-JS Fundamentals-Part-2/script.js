@@ -42,7 +42,16 @@ function calcAge1(birthYear) {
   return 2090 - birthYear;
 }
 const age1 = calcAge1(1991);
-console.log(age1);
+console.log(age1); logs //logs age1 - 2090 
+// let's review what happened here
+// first we declrared our functions with a name calcAge1 
+// then we gave our function a parameter birthYear 
+// then we stored our function into a variable age1 
+// and then gave a value to our argument birthYear 
+// birthYear is an special variable used as an argument in paranthesis (funciton)
+// then we can give a value to it later in our function 
+
+
 
 
 
