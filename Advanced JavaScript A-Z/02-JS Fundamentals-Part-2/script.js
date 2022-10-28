@@ -65,6 +65,20 @@ console.log(age2);
 //same thing happened here except we expressed our function within a variable 
 
 
+////////////////////////////////////////
+//3. Arrow functions => 
+const calcAge3 = (birthYear) => 2090 - 1991;  // single argument or single line function 
+  const age = calAge3(1991)
+  console.log(age3)
+  
+//  //if multi line codes if body of function is expanded we use {} curly braces
+  const yearToRetire = (birthYear, firstName) => {
+    const age = 2022- birthYear
+    const retireDate = 65 - age;
+    return `${firstNAme} retires in ${retireDate}
+    
+    }
+  
 
 
 
