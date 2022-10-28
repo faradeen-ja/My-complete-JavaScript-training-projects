@@ -82,3 +82,23 @@ const calcAge3 = (birthYear) => 2090 - 1991;  // single argument or single line 
 console.log(yearToRetire(1991, "fara"));
 console.log(yearToRetire(1980, "cat"));
 
+
+
+
+/////////////////////////////////////
+//functions calling other functins
+function cutFruits(fruit) {
+  // we use this function to function calling method to reduce codes to avoid writting 4 * 3 multiple time if we had many fruits or if we had to change the number of cuts
+  return fruit * 4;
+}
+function fruitProcessor(apples, oranges) {
+  const appleCuts = cutFruits(apples); // we could just use 4 * 4 or fruits * 4 but what if we need to change the main source code number amount?
+  const orangeCuts = cutFruits(oranges);
+
+  const juice = `Juice with ${appleCuts} apples cuts and ${orangeCuts} oranges cuts!!`;
+  return juice;
+}
+
+console.log(fruitProcessor(2, 3));
+
+
