@@ -161,3 +161,47 @@ if (friends.includes("cows")) {
   console.log("it is a deer");
 }
 
+
+
+
+
+
+/////////////////////////////////////
+//Objects 
+const fara = {
+  firstName: "fara",
+  lastName: "j",
+  age: 32,
+  job: "noder or coder",
+  friends: ["only good people", "zombies", "robots"],
+};
+
+console.log(fara);
+// getting properties from objects with dot notation
+console.log(fara.lastName);
+
+// we can get multiple values with array log bracket notation
+const nameKey = "Name";
+console.log(fara["first" + nameKey]);
+console.log(fara["last" + nameKey]);
+
+// we can't get multiple values with dot notation
+//console.log(fara.'last' + nameKey)
+
+// putting a value out for the user
+/* const interestedIn = prompt('what you like to know about me? name, job, age')
+if(fara[interestedIn]) {
+    console.log(fara[interestedIn])
+
+} else {
+    console.log('Wrong request')
+} */
+
+// add new properties to objects
+fara.location = "herat";
+fara["linkedin"] = "@fara";
+console.log(fara);
+
+// fara object has 3 friends and best friend is....
+const bestFriend = fara.friends[2];
+console.log(`${fara.firstName} has one best friend ${bestFriend}`);
