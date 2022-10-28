@@ -102,3 +102,28 @@ function fruitProcessor(apples, oranges) {
 console.log(fruitProcessor(2, 3));
 
 
+///////////////////////////////////
+//Challenge
+onst calcAverage = (a, b, c) => (a + b + c) / 3;
+console.log(calcAverage(1, 4, 5));
+
+// test one
+const scoreCats = calcAverage(120, 122, 129);
+const scoreDogs = calcAverage(122, 123, 124);
+
+console.log(scoreCats, scoreDogs);
+
+const checkWinner = function (avgCats, avgDogs) {
+  if (avgCats >= 2 * avgDogs) {
+    console.log(`cats wins (${avgCats} vs. ${avgDogs})`);
+  } else if (avgDogs >= 2 * avgCats) {
+    console.log(`dog wins (${avgDogs} vs. ${avgCats})`);
+  } else {
+    console.log("no animal wins...");
+  }
+};
+
+checkWinner(scoreCats, scoreDogs);
+checkWinner(500, 120);
+
+
