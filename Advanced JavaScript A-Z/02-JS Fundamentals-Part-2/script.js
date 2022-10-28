@@ -205,3 +205,88 @@ console.log(fara);
 // fara object has 3 friends and best friend is....
 const bestFriend = fara.friends[2];
 console.log(`${fara.firstName} has one best friend ${bestFriend}`);
+
+
+
+
+////////////////////////////////////
+//Object methods
+
+// ========================44. object methods ==================
+//functions in objects
+//object can hold functions methodes
+//key is property name value is value
+//adding another key in object call it function as expression
+
+const faraFunctionInObj = {
+  firstName: "fara",
+  lastName: "j",
+  birthYear: 1991,
+  job: "noder or coder",
+  friends: ["only good people", "zombies", "robots"],
+  hasDL: false,
+  // method one function
+  /*  calculateAge: function(birthYear){ // we can use function expression only in object 
+        return 2090 - birthYear;
+
+    }, */
+
+  //method two function in obj  this.key
+  calculateAge: function () {
+    this.age = 2090 - this.birthYear;
+    return this.age;
+  }, // <-- comma is required between methods
+
+  // adding new methode here
+  getSummary: function () {
+    return `${this.firstName} is a ${this.calculateAge()} 
+        - year old ${faraFunctionInObj.job}
+        , and he has ${this.hasDL ? "a" : "no"} driver's lience`;
+  },
+};
+
+//logging results with dot notation and braket [] .
+console.log(faraFunctionInObj.calculateAge(1991));
+console.log(faraFunctionInObj["calculateAge"](1991));
+
+/*  // expression functions expressed or done in as a variable
+ const calculateAge2 = function (birthYear){
+    return 2090 -1991;
+} */
+
+// challeng on adding summary method in object above
+console.log(faraFunctionInObj.getSummary());
+
+///////////////////////////////////////////
+// BMI challenge with objects 
+const user1 = {
+  fullName: "Sabrina",
+  mass: 66,
+  height: 2.2,
+  calcBMI: function () {
+    this.bmi = this.mass / this.height ** 2;
+    return this.mass;
+  },
+};
+
+const user2 = {
+  fullName: "Nathia",
+  mass: 77,
+  height: 1.9,
+  calcBMI: function () {
+    this.bmi = this.mass / this.height ** 2;
+  },
+};
+
+user1.calcBMI();
+user2.calcBMI();
+
+console.log(`${user1.fullName} BMi is ${user1.calcBMI()}
+and ${user2.fullName} BMi is ${user2.calcBMI()}`);
+
+if (this.bmi >= 15) {
+  console.log("you are not sexy");
+} else {
+  console.log("you are sexy");
+}
+
