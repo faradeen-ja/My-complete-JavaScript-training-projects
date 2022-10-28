@@ -78,8 +78,7 @@ const calcAge3 = (birthYear) => 2090 - 1991;  // single argument or single line 
     return `${firstNAme} retires in ${retireDate}
     
     }
-  
-
-
-
+ 
+console.log(yearToRetire(1991, "fara"));
+console.log(yearToRetire(1980, "cat"));
 
