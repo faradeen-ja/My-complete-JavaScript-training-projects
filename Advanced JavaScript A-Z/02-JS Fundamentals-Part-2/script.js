@@ -127,3 +127,37 @@ checkWinner(scoreCats, scoreDogs);
 checkWinner(500, 120);
 
 
+
+////////////////////////////////////
+//few of the Array [] methods
+
+// arrays=====================push=====pop=====
+
+/* const friend1 = cats;
+const friend2 = cows;
+const friend3 = elephants; */
+
+const friends = ["cats", "cows", "elephants"];
+
+friends.push("persian cat"); //add to end of array
+console.log(friends);
+
+friends.unshift("zebra"); // add elements to start begining of array list
+console.log(friends);
+
+friends.pop(); //remove last element in array
+console.log(friends);
+
+friends.shift(); // remove the first element from array
+console.log(friends);
+
+console.log(friends.indexOf("cows")); //shows index of emelemts  0 1 -1
+
+console.log(friends.includes("cats")); // includes method
+
+if (friends.includes("cows")) {
+  console.log("you have a cow friend in list!");
+} else {
+  console.log("it is a deer");
+}
+
