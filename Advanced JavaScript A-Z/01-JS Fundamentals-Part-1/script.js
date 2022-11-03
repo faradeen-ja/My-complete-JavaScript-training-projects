@@ -54,7 +54,7 @@ cosole.log(dogsAges[0]) // 2
 
 
 ////////////////////////📅Data Types//////////////////////////////
-///1; - ⬅️[Objects] 
+///1; -⬅️[Objects] 
 ///2 - ⬅️ [Primitives] 
 ///    👻 -----Primitives------ 
 ///1 - 🔢[Number] floating point numbers 
@@ -70,7 +70,7 @@ let javaScriptisFun = true
 console.log(javaScriptisFun)
 
 let emptyValue = // variable with no value  / empty variable
-//typeOff
+//typeOff 
 console.log("ture is", typeof true); // true is boolean 
 console.log(typeof javaScriptisFun) // boolean
 console.log(typeof 123); //number
@@ -81,21 +81,22 @@ console.log(typeof 983493n) // bigInt int = integer
 
 
 
-//////////////////////////////var / let and const keywords/////////////////////////////////////
+//////////////////////////////✌🏻var / let and const keywords/////////////////////////////////////
 // let
-// let keyword can be reassigned redeclared 
+// ↘️let keyword can be reassigned redeclared  
 let age = 98;
 age = 80;
 
 
 
 // const
+// 🔕cannot be reassigned or redecrared
 const carModel = "bmw";
 console.log(carModel); // logs bmw
 
 // if you try to redeclare or reasign carModel value it wont work
 // const variable declrations can not be reassigned or stored again 
-//e.g. 
+//📝e.g. 
 const carModel = "bmw";  // it will log this error --> Uncaught SyntaxError: Identifier 'carModel' has already been declared 
 //or 
 carModel = "Ferarri"; // this will log error into console --> Uncaught TypeError: Assignment to constant variable.
