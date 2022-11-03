@@ -186,15 +186,15 @@ console.log(dreamCar);
 const dreamCar2 = `This car is ${car}, a very fast car that has ${tires} tires, color is ${color}, it was built in year ${year}`
 console.log(dreamCar2);
 
-//using backticks  instead of qoutes 
+//🔙 using backticks  instead of qoutes 
 console.log(` this is just another string with template literals ')
 
-//old ways using a new line with back slash 
+//⚠️❌ old ways using a new line with back slash 
 console.log('string with an old way js\n\
 miltiple \n\
 lines')
 
-//new way using back ticks to make multi line strings. es6 
+//✅🔷 new way using back ticks to make multi line strings. es6 
 console.log(`string with new way
 multiple
 lines`);
@@ -202,7 +202,7 @@ lines`);
 
 
 
-///==========taking decisions / if else===========///
+///==========taking decisions😎🙄 / if else===========///
 
 const userAge = 15;
 
@@ -259,7 +259,7 @@ if(userAge >= 18){
  }
  
 ////////////////////////////////
-//equality operands operators 
+//equality operands operators ^_____^ 
 const ageOperators =  18
 if(ageOperators === 18);  /// if exactly true (strict equality)
 console.log('you just turned wild!')
@@ -277,7 +277,7 @@ if(books == mathBook){
 
 
 //////////////////////////////////
-//logics operrands
+//🔀logics operrands
 
 const hasDriverLicense = true; // valiable A
 const hadGoodEyes = true;// valiable B  if change to false both will be false
@@ -291,7 +291,7 @@ console.log(!hasDriverLicense); // not // don't have a driver license /// false 
 
 
 //////////////////////////////////
-//the switch statement switch is like if else
+//⏭️the switch statement switch is like if else
 
   const selectDay = 'on mondays'
 
@@ -325,7 +325,7 @@ console.log(!hasDriverLicense); // not // don't have a driver license /// false 
   
   
   
-  // if else is messsy cluttered depending on the usecase for instance if we are dealing with many conditions
+  // ⚠️❌if else is messsy cluttered depending on the usecase for instance if we are dealing with many conditions
   if (selectDay === 'on mondays'){
     console.log("I am coding...!");
 
@@ -370,6 +370,7 @@ const who = 'faramarajarazara'
 
 
 ///////////////////////////////////////
+//
 //Conditional operands or operators or ternary oprator 
 
 const legalAge = 10;
