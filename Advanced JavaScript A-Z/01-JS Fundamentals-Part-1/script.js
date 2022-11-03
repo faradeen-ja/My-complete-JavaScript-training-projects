@@ -53,14 +53,14 @@ cosole.log(dogsAges[0]) // 2
 
 
 
-////////////////////////Data Types//////////////////////////////
-///1; - [Objects]
-///2 - [Primitives]
-/// -----Primitives------
-///1 - [Number] floating point numbers
-///2 - [Strings] like sentence word characters or texts 
-///3 - [boolean] are used to make decesions  true or false 
-///4 - [undefined] value in a variable is not defined, set or stored, empty value or parameters 
+////////////////////////📅Data Types//////////////////////////////
+///1; - [Objects] ⬅️
+///2 - [Primitives] ⬅️
+/// -----Primitives------ 👻
+///1 - [Number] floating point numbers 🔢
+///2 - [Strings] like sentence word characters or texts 📝
+///3 - [boolean] are used to make decesions  true or false 👍🏻 👎🏻
+///4 - ⛔[undefined] value in a variable is not defined, set or stored, empty value or parameters 
 ///5 - [Null] also means empty values
 ///6 - [Symbols #$@%] 
 ///7 - [BigInt Bigintergers] long mathimatics numbers
