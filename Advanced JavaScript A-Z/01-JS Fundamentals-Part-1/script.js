@@ -151,6 +151,7 @@ console.log(x); //logs 104
 
 
 /////////////////////////////////
+//🔷
 //Comparison operators >, <, >=, <= 
 console.log(myAge > ageSarah); // more than older than
 console.log(ageSarah  >= 18); // logs if ture of false
@@ -158,7 +159,7 @@ console.log(ageSarah  >= 18); // logs if ture of false
 
 
 ////////////////////////////////
-//Operator precedences 
+//⬅️➡️🔀Operator precedences 
 let x2, y;
 x2 = y = 26-10-4; // executes code from right to left 
 console.log(x2, y)
@@ -169,7 +170,7 @@ console.log(myAge, ageSarah, averageAge);
 
 
 ////////////////////////////////
-//Strrrings and Template strings 
+//🎶Strrrings and Template strings 
 //or Template literal
 
 const car = 'bmw'
@@ -177,11 +178,11 @@ const tires = 4
 const color = 'yellow'
 const year = 1994
 
-//old ways getting varibles values as string output
+//⚠️❌old ways getting varibles values as string output
 const dreamCar = 'This car is ' + car + ', a very fast car that has ' + tires + ' tires ' + 'color  is ' + color + ' it was built in year ' + year;
 console.log(dreamCar);
 
-//modern way using ES6 template strings / tempalte literals 
+//✅🔷modern way using ES6 template strings / tempalte literals 
 const dreamCar2 = `This car is ${car}, a very fast car that has ${tires} tires, color is ${color}, it was built in year ${year}`
 console.log(dreamCar2);
 
