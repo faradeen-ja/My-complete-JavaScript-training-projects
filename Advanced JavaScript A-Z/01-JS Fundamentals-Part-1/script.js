@@ -41,14 +41,15 @@
 // 🗳️ think of variables as a box that you store things in it and you are able to take each item out when needed to use, look at or destroy it. 
 // -in JavaScript you can compare these real-life examples declaring or calling upon a variables you use in your code. 
 
+// 😼 🐶
 let pets = "cats, dogs";
 let catName = "sally";
-let dogsAges = [2, 5];
+let dogsAges = [2, 5]; 
 
 // logging results into console
-console.log(pets) // cats, dogs
+console.log(pets) // 😼🐶cats, dogs
 console.log(catName) // sally
-cosole.log(dogsAges[0]) // 2
+cosole.log(dogsAges[0]) // 2 
 
 
 
