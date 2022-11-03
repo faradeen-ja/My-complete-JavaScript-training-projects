@@ -99,26 +99,27 @@ console.log(carModel); // logs bmw
 //📝e.g. 
 const carModel = "bmw";  // it will log this error --> Uncaught SyntaxError: Identifier 'carModel' has already been declared 
 //or 
-carModel = "Ferarri"; // this will log error into console --> Uncaught TypeError: Assignment to constant variable.
+carModel = "Ferarri"; // 🚗 this will log error into console --> Uncaught TypeError: Assignment to constant variable.
 //or even if we store the same value
 carModel ="bmw"; // --> Uncaught TypeError: Assignment to constant variable.
 
 
 // var
-// var keyword is not used today  = old  and can be reAssgined 
-// dangerous to use in your code because you may use same varible in many places results in bugs 
+// 🚫var keyword is not used today  = old  and can be reAssgined 
+// ⚠️dangerous to use in your code because you may use same varible in many places results in bugs 
 var job = "coder"; // first value assigned 
 job  = "noder"; // second value re-assigned <- javaScript will run this 
 // if you console log job varialbe now it wil... output noder because it reassigned or changed the value to new value "noder" 
 console.log(job) // logs noder
 
 
-//varialbes rules  
+//varialbes rules ✅  
 //always declare variables meaning always store name and value by declraing it --> ✅let job = "coder"  ❌job = "coder"
 //let, const or var  is the reserved keywords in js used to declare our variables 
 
 
 ////////////////////////////////////
+//➖ ➗ ❌ ➕
 //Transform or combine values with + - * / == = 
 // Basic Operators
 // Math operators
