@@ -44,7 +44,7 @@ document.addEventListener('keydown', function(e){
 })
 
 
-// !modal means if does not contain/ include
+// !modal means if does not contain/ include ✅
 
 // to reduce code works the same way as up function
 /* if (e.key === 'Escape' && !modal.classList.contains
