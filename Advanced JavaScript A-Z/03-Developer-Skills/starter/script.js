@@ -9,5 +9,4 @@ const testFunc = '555';
 if (x === 222){
    console.log(222) 
 }
-
-const fuckYou = yes => 2 - yes;
+//✅
