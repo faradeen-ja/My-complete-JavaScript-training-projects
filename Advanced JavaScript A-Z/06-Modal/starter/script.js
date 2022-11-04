@@ -18,7 +18,7 @@ console.log(btnsOpenModal[i].addEventListener
 
 
 
-// buttons close action
+// 👨🏻‍💻buttons close action
 
 const closeModal = function(){
     modal.classList.add('hidden');
