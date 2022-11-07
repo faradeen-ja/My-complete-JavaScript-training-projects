@@ -12,7 +12,7 @@ document.querySelector('.score').textContent = 11;
 
 document.querySelector('.guess').value = 23; */
 
-
+👉
 //Handeling the click of a button starting the APP -->
 
 // define the secret number outside here
@@ -35,7 +35,7 @@ document.querySelector('.check').addEventListener
 const guess = Number(document.querySelector('.guess').value);
 console.log(guess, typeof guess);
    
-//refactored code using the function above ^==========>
+//✅🔀refactored code using the function above ^==========>
     if (!guess){// if there is no guess or 0  // whe ther is no input
     /* document.querySelector('.message').textContent = 
     'No number!!!!' */
