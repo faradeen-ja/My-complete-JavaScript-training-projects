@@ -104,7 +104,7 @@ console.log(guess, typeof guess);
 
 
 
-// reset button
+//🔽 reset button
 
 document.querySelector('.again').addEventListener
 ('click', function(){ // anunymouse function  dont have a value
