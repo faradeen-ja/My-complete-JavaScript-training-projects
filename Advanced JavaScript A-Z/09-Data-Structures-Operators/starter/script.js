@@ -67,7 +67,7 @@ restaurant.orderDelivery({
 });
 
 console.log('------desctructuring objects--------');
-//============ destructure objects ============================
+//============ destructure🎣🎾 objects ============================
 // we use curly braces to destructure obs {}  provide the vars names exactly matching in the object properties
 
 const { name, openingHours, categories } = restaurant; // we need to write the exact property names in the object
@@ -112,14 +112,14 @@ console.log(' -------destructuring Arrays------ ');
 
 // -------------------------------------------deStructuring Arrays  --------------------------------
 
-// bad way of declaring vars
+// 🛑bad way of declaring vars
 // before destructuring
 const arr = [2, 3, 4];
 const a = arr[0];
 const b = arr[1];
 const c = arr[2];
 
-// modern way es6 ++
+// ✅modern way es6 ++
 // we write this syntax here to destructure un--pack
 const [x, y, z] = arr; //whenever js sees the var name on the right side with = sign it means to destructure it
 console.log(x, y, z);
@@ -144,7 +144,7 @@ console.log(main, secondary);
 /* [main, secondary] = [secondary, main]; // replacing elements reasigning values  
 console.log(main, secondary); */
 
-// write a function to order food with adding a method to our object
+// write a function to order food😋🍍 with adding a method to our object
 // this is how we receive 2 return values from a function --> destructured
 const [starter, mainShit] = restaurant.order(2, 0);
 console.log(starter, mainShit);
@@ -155,7 +155,7 @@ const nested = [2, 4, [5, 6]];
 /* const [i, , j] = nested;
 console.log(i, j) */
 
-// nested destructuring
+// 🥚🍳nested destructuring
 // to get all elements in array and nested arr
 const [i, , [j, k]] = nested;
 console.log(i, j, k); // logs 2 5 6
