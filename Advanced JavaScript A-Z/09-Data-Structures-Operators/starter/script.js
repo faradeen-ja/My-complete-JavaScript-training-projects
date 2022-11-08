@@ -4,17 +4,7 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-// Data needed for first part of the section
+// 1️⃣ Data needed for first part of the section
 const restaurant = {
   name: 'Classico Italiano',
   location: 'Via Angelo Tavanti 23, Firenze, Italy',
@@ -40,7 +30,7 @@ const restaurant = {
   order: function (starterIndex, mainIndex) {
     return [this.starterMenu[starterIndex], this.mainMenu[mainIndex]];
   },
-  // this is a methode in an expression functions holding 4 object variables now
+  // this is a method in an expression functions holding 4 object args or ➡️variables now
   orderDelivery: function ({ starterIndex, mainIndex, time, address }) {
     // got logged here
     console.log(`order received!! ${this.starterMenu[starterIndex]}
@@ -66,9 +56,9 @@ const restaurant = {
 
 };
 
-// call function param and passing in an object of options
-//calling a method with an object
-// got called here with an object
+// 📲📞call function param and passing in an object of options
+// 📞📞calling a method with an object
+// 📱📱got called here with an object
 restaurant.orderDelivery({
   time: '22:30',
   address: 'Houston, Texas, USA',
