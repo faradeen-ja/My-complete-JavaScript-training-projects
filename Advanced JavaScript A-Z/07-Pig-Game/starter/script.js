@@ -20,10 +20,10 @@ const btnHold= document.querySelector('.btn--hold')
 
 
 // declaring valiables here without giving any valuse 
-// if varibles are used in funciton scopes or block scopes they can't be recalled in the code base 
+// 🔙if varibles are used in funciton scopes or block scopes they can't be recalled in the code base 
 
 let scores, currentScore, activePlayer, playing;
-// initiates resets the game 
+//1️⃣ initiates resets the game 
 const init = function() {
     scores = [0, 0] // big scores continouse scoring
     currentScore = 0;
@@ -63,13 +63,13 @@ const switchPlayer = function(){
 
 
 
-//Rolling dice function -->
+//🎲Rolling dice function -->
 if (playing){
     btnRoll.classList.remove('btn--roll')
 } 
 btnRoll.addEventListener('click', function(){
 
-    // 1. generating a random dice roll number
+    // 1.🔁 generating a random dice roll number
     const dice = Math.trunc(Math.random() * 6) + 1;
     console.log(dice);
 
@@ -77,7 +77,7 @@ btnRoll.addEventListener('click', function(){
 
 
 
-    //2. Diplay dice
+    //2.🎴 Diplay dice
     diceEl.classList.remove('hidden')
     diceEl.src = `dice-${dice}.png`;
 
@@ -103,7 +103,7 @@ btnRoll.addEventListener('click', function(){
     }
 })
 
-//....hold scores
+//⏹️....hold scores
     btnHold.addEventListener('click', function(){
 
         if (playing){
