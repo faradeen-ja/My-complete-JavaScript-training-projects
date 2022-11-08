@@ -79,14 +79,14 @@ const faraOne = {
 
   },
 
-  //never use an arrow function as method  use funcitons expression
+  //🛑 never use an arrow function as method  use funcitons expression
  // pitfall
   /*   greet: () => {
     console.log(this);
     console.log(`Hey ${this.firstName}`)
   } */
 
-  // use a regular function // this method get it's own this keyword
+  //✅ use a regular function // this method get it's own this keyword
   greet: function(){
     console.log(this);
     console.log(`Hey ${this.firstName}`);
@@ -131,7 +131,7 @@ addArrow(2, 5 */
 
 
 
-// primitives objects 
+//🥇🥇 primitives objects 
 
 
 
