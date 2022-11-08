@@ -25,7 +25,7 @@ const calcAge = function(birthYear){
 calcAge(1991)
 
 
-// arrow function do not get it's this keyword
+// ➡️ arrow function do not get it's this keyword
 const calcAgeArrow = birthYear => {
   console.log(2037 - birthYear)
   console.log(this) // it will point to window we have one outside of the scopes 
@@ -58,11 +58,11 @@ matilda.calcAge()
 
 
 
-//----- reguuuular and arrow functions when we should use them when not
+//-----⚠️ reguuuular and arrow functions when we should use them when not
 
 
-//function in object adding a sedond method as function
-//object literal
+// 👉function in object adding a second method as function
+// object literal
 // arrow func will not have it's this keywork and will use it form a surrounding scope  = global scope 
 
 //e.g.
