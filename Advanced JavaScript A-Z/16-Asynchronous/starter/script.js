@@ -190,7 +190,7 @@ const renderCountry = function(data, className = ''){
   countriesContainer.style.opacity = 1;  // added to finally method
 }
 
-
+✅
 // if we try to use callback functions over and over by getting other countries borders in this eg 
 // it will make a callback hill hell
 // we use pormises to reduce bugs and reduct running many callback funcs
