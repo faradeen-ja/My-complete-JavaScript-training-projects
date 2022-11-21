@@ -1,7 +1,7 @@
 'use strict';
 
 ///////////////////////////////////////
-// old way using ajax getting http req res
+//🛑 old way using ajax getting http req res
 
 /* const btn = document.querySelector('.btn-country');
 const countriesContainer = document.querySelector('.countries');
