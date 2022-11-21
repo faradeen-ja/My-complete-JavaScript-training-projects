@@ -159,7 +159,7 @@ request.addEventListener('load', function(){  // as soon as the data arrives thi
 
 
 /////////////////////////////////////////
-//2 using FETCH API pormises callbacks 
+//2️⃣ using FETCH API pormises callbacks 
 const btn = document.querySelector('.btn-country');
 const countriesContainer = document.querySelector('.countries');
 
