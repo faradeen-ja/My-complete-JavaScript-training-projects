@@ -39,7 +39,7 @@ const renderCountry = function(data, className = ''){
 
 
 
-//1
+//1️⃣
 const getCountryAndNeighbour = function(country){
 
     // AJAX call country one
